@@ -1,0 +1,1 @@
+{"D1": "sql_injection", "D2": "none", "D3": "path_traversal", "D4": "none", "D5": "unsafe_deletion", "D6": "secret_in_logs", "D7": "none", "D8": "unsafe_deserialization", "D9": "command_injection", "D10": "insecure_permissions", "T1": true, "T2": false, "T3": false, "T4": true, "T5": false, "T6": true, "T7": true, "T8": true, "T9": true, "T10": false}

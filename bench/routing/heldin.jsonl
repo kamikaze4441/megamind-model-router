@@ -1,0 +1,90 @@
+{"id": "hi-001", "prompt": "what does ZFS stand for", "class": "quick"}
+{"id": "hi-002", "prompt": "how many GB in a TB", "class": "quick"}
+{"id": "hi-003", "prompt": "whats the shortcut to take a screenshot on mac", "class": "quick"}
+{"id": "hi-004", "prompt": "what is a reverse proxy?", "class": "quick"}
+{"id": "hi-005", "prompt": "convert 72 fahrenheit to celsius", "class": "quick"}
+{"id": "hi-006", "prompt": "who wrote dune", "class": "quick"}
+{"id": "hi-007", "prompt": "what does HDR10+ mean", "class": "quick"}
+{"id": "hi-008", "prompt": "how do i open terminal on a mac", "class": "quick"}
+{"id": "hi-009", "prompt": "difference between RAM and storage?", "class": "quick"}
+{"id": "hi-010", "prompt": "what year did the ps5 come out", "class": "quick"}
+{"id": "hi-011", "prompt": "find every place in my repo where we call parse_date", "class": "search"}
+{"id": "hi-012", "prompt": "go through my downloads folder and list all the PDFs from october", "class": "search"}
+{"id": "hi-013", "prompt": "search the plex logs for any line that mentions transcoder", "class": "search"}
+{"id": "hi-014", "prompt": "which files in this project import requests?", "class": "search"}
+{"id": "hi-015", "prompt": "pull out all the dates and amounts from these 12 receipts", "class": "search"}
+{"id": "hi-016", "prompt": "look through my notes for anything about room calibration", "class": "search"}
+{"id": "hi-017", "prompt": "list all the docker containers that mount /mnt/user/media", "class": "search"}
+{"id": "hi-018", "prompt": "where is the API base url defined in this codebase", "class": "search"}
+{"id": "hi-019", "prompt": "count how many times the word 'refund' appears in the support emails", "class": "search"}
+{"id": "hi-020", "prompt": "scan these server logs and show me every warning from last night", "class": "search"}
+{"id": "hi-021", "prompt": "write an email to my landlord asking to fix the dishwasher, polite but firm", "class": "write"}
+{"id": "hi-022", "prompt": "draft a reply to this message saying i cant make it friday", "class": "write"}
+{"id": "hi-023", "prompt": "summarize this article in 5 bullets", "class": "write"}
+{"id": "hi-024", "prompt": "translate this paragraph into punjabi", "class": "write"}
+{"id": "hi-025", "prompt": "make this sound more professional: hey guys the server will be down tmrw", "class": "write"}
+{"id": "hi-026", "prompt": "write a short bio for my github profile", "class": "write"}
+{"id": "hi-027", "prompt": "rewrite my cover letter intro so it's less stiff", "class": "write"}
+{"id": "hi-028", "prompt": "write a thank you note to my coworker for covering for me", "class": "write"}
+{"id": "hi-029", "prompt": "explain how a VPN works to my grandma in simple words", "class": "write"}
+{"id": "hi-030", "prompt": "write a reddit post asking for help choosing a 3d printer", "class": "write"}
+{"id": "hi-031", "prompt": "add a dark mode toggle to the settings page", "class": "edit"}
+{"id": "hi-032", "prompt": "write a python script that renames my photos by the date they were taken", "class": "edit"}
+{"id": "hi-033", "prompt": "refactor this function so it doesn't repeat the same loop twice", "class": "edit"}
+{"id": "hi-034", "prompt": "change the default port in config.yaml from 8080 to 9090", "class": "edit"}
+{"id": "hi-035", "prompt": "make a bash alias that updates all my brew packages", "class": "edit"}
+{"id": "hi-036", "prompt": "write a regex that matches canadian postal codes", "class": "edit"}
+{"id": "hi-037", "prompt": "rename the variable usr to user everywhere in utils.py", "class": "edit"}
+{"id": "hi-038", "prompt": "add input validation to the signup form, email and password length", "class": "edit"}
+{"id": "hi-039", "prompt": "convert this javascript function to typescript", "class": "edit"}
+{"id": "hi-040", "prompt": "write a cron job that runs my backup script every night at 3am", "class": "edit"}
+{"id": "hi-041", "prompt": "my plex server keeps buffering on 4k movies, why", "class": "debug"}
+{"id": "hi-042", "prompt": "getting this when i run the script: ModuleNotFoundError: No module named 'pandas'", "class": "debug"}
+{"id": "hi-043", "prompt": "the docker container exits immediately with exit code 137", "class": "debug"}
+{"id": "hi-044", "prompt": "why does my python loop skip every other item when i remove from the list", "class": "debug"}
+{"id": "hi-045", "prompt": "sonarr isn't picking up new episodes anymore, it was fine last week", "class": "debug"}
+{"id": "hi-046", "prompt": "the website loads but the images are broken on mobile only", "class": "debug"}
+{"id": "hi-047", "prompt": "TypeError: cannot read properties of undefined (reading 'map') in my react app", "class": "debug"}
+{"id": "hi-048", "prompt": "my test passes locally but fails in github actions", "class": "debug"}
+{"id": "hi-049", "prompt": "the vm on unraid won't boot after the update, stuck on uefi shell", "class": "debug"}
+{"id": "hi-050", "prompt": "why is my gpu running at 80C idle", "class": "debug"}
+{"id": "hi-051", "prompt": "how do i open port 32400 on my router so friends can stream from plex", "class": "risky"}
+{"id": "hi-052", "prompt": "i want to delete the old appdata folder for containers i removed, is it safe", "class": "risky"}
+{"id": "hi-053", "prompt": "help me migrate my unraid array to bigger drives without losing data", "class": "risky"}
+{"id": "hi-054", "prompt": "should i move my tfsa from index funds into individual stocks", "class": "risky"}
+{"id": "hi-055", "prompt": "change the ssh config so root can log in with a password", "class": "risky"}
+{"id": "hi-056", "prompt": "run rm -rf on the old backup share to free space", "class": "risky"}
+{"id": "hi-057", "prompt": "set up cloudflare tunnel to expose my home assistant to the internet", "class": "risky"}
+{"id": "hi-058", "prompt": "how much should i withdraw from my rrsp for the down payment", "class": "risky"}
+{"id": "hi-059", "prompt": "update my production database schema to add a column to the users table", "class": "risky"}
+{"id": "hi-060", "prompt": "chmod 777 the whole appdata share so the containers stop complaining", "class": "risky"}
+{"id": "hi-061", "prompt": "review this pull request for bugs before i merge it", "class": "review"}
+{"id": "hi-062", "prompt": "fact check this blog post before i publish it", "class": "review"}
+{"id": "hi-063", "prompt": "is my math right here? 3 payments of 412 plus 5% tax", "class": "review"}
+{"id": "hi-064", "prompt": "look over my resume and tell me what's wrong", "class": "review"}
+{"id": "hi-065", "prompt": "check this sql query for mistakes", "class": "review"}
+{"id": "hi-066", "prompt": "can you proofread my essay for errors", "class": "review"}
+{"id": "hi-067", "prompt": "audit my docker compose file for security issues", "class": "review"}
+{"id": "hi-068", "prompt": "double check my budget spreadsheet formulas", "class": "review"}
+{"id": "hi-069", "prompt": "did i miss anything in this packing list for japan", "class": "review"}
+{"id": "hi-070", "prompt": "give me feedback on my landing page copy", "class": "review"}
+{"id": "hi-071", "prompt": "compare two entry-level 3d printers for a beginner", "class": "research"}
+{"id": "hi-072", "prompt": "what's the best nas for plex under $600", "class": "research"}
+{"id": "hi-073", "prompt": "should i get an oled or a mini-led tv for a bright living room", "class": "research"}
+{"id": "hi-074", "prompt": "what are people saying about the new pixel 11 battery life", "class": "research"}
+{"id": "hi-075", "prompt": "best way to back up 20tb of media offsite cheaply", "class": "research"}
+{"id": "hi-076", "prompt": "pros and cons of tailscale vs wireguard for remote access", "class": "research"}
+{"id": "hi-077", "prompt": "which password manager is better, bitwarden or 1password", "class": "research"}
+{"id": "hi-078", "prompt": "latest news on the rtx 6090 release", "class": "research"}
+{"id": "hi-079", "prompt": "is a 900cc sport bike worth it as a first big bike", "class": "research"}
+{"id": "hi-080", "prompt": "find me the cheapest flights to tokyo in march and compare airlines", "class": "research"}
+{"id": "hi-081", "prompt": "help me design the folder structure for my obsidian vault", "class": "plan"}
+{"id": "hi-082", "prompt": "plan out the architecture for a meal planning app with ios and android", "class": "plan"}
+{"id": "hi-083", "prompt": "how should i structure my home server so plex, the arr apps and backups don't step on each other", "class": "plan"}
+{"id": "hi-084", "prompt": "write a roadmap for learning to code over the next 6 months", "class": "plan"}
+{"id": "hi-085", "prompt": "what's the best approach for migrating my whole setup from unraid to proxmox long term", "class": "plan"}
+{"id": "hi-086", "prompt": "design a database schema for a recipe app", "class": "plan"}
+{"id": "hi-087", "prompt": "lay out a plan for my news digest app, phases and milestones", "class": "plan"}
+{"id": "hi-088", "prompt": "i need a strategy for organizing 10 years of photos", "class": "plan"}
+{"id": "hi-089", "prompt": "help me think through the tradeoffs of self hosting vs paying for cloud storage", "class": "plan"}
+{"id": "hi-090", "prompt": "write a spec for a discord bot that posts plex activity", "class": "plan"}

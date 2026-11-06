@@ -1,0 +1,152 @@
+{
+ "routing": {
+  "heldin.jsonl": {
+   "set": "heldin.jsonl",
+   "n": 90,
+   "class_accuracy": 1.0,
+   "tier_accuracy": 1.0,
+   "under_routed": 0,
+   "over_routed": 0,
+   "silent": 4,
+   "risky_under_routed": "0/10",
+   "ms_per_prompt": 0.314
+  },
+  "heldout.jsonl": {
+   "set": "heldout.jsonl",
+   "n": 117,
+   "class_accuracy": 0.983,
+   "tier_accuracy": 0.991,
+   "under_routed": 1,
+   "over_routed": 0,
+   "silent": 7,
+   "risky_under_routed": "0/13",
+   "ms_per_prompt": 0.377
+  },
+  "heldout2.jsonl": {
+   "set": "heldout2.jsonl",
+   "n": 117,
+   "class_accuracy": 0.556,
+   "tier_accuracy": 0.607,
+   "under_routed": 31,
+   "over_routed": 15,
+   "silent": 37,
+   "risky_under_routed": "7/13",
+   "ms_per_prompt": 0.722
+  },
+  "heldout.jsonl (v0, frozen, first run)": {
+   "set": "heldout.jsonl",
+   "n": 117,
+   "class_accuracy": 0.675,
+   "tier_accuracy": 0.769,
+   "under_routed": 22,
+   "over_routed": 5,
+   "silent": 28,
+   "risky_under_routed": "3/13",
+   "ms_per_prompt": 0.348
+  }
+ },
+ "tiers": {
+  "A-haiku": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 93741,
+   "ms": 7737,
+   "notes": {}
+  },
+  "A-sonnet": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 93118,
+   "ms": 9583,
+   "notes": {}
+  },
+  "A-opus": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 93001,
+   "ms": 8223,
+   "notes": {}
+  },
+  "B-haiku": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 96725,
+   "ms": 24977,
+   "notes": {}
+  },
+  "B-sonnet": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 93468,
+   "ms": 19715,
+   "notes": {}
+  },
+  "B-opus": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 92787,
+   "ms": 18386,
+   "notes": {}
+  },
+  "C-haiku": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 93728,
+   "ms": 13665,
+   "notes": {}
+  },
+  "C-sonnet": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 92253,
+   "ms": 11264,
+   "notes": {}
+  },
+  "C-opus": {
+   "score": 6,
+   "of": 6,
+   "context_tokens": 92849,
+   "ms": 18777,
+   "notes": {}
+  },
+  "D-haiku": {
+   "score": 20,
+   "of": 20,
+   "context_tokens": 92245,
+   "ms": 6920,
+   "notes": {
+    "safe_code_flagged": 0,
+    "real_issue_missed": 0,
+    "true_claims_marked_false": 0
+   }
+  },
+  "D-sonnet": {
+   "score": 20,
+   "of": 20,
+   "context_tokens": 91606,
+   "ms": 6567,
+   "notes": {
+    "safe_code_flagged": 0,
+    "real_issue_missed": 0,
+    "true_claims_marked_false": 0
+   }
+  },
+  "D-opus": {
+   "score": 20,
+   "of": 20,
+   "context_tokens": 91581,
+   "ms": 7311,
+   "notes": {
+    "safe_code_flagged": 0,
+    "real_issue_missed": 0,
+    "true_claims_marked_false": 0
+   }
+  }
+ },
+ "hooks": {
+  "hook_cases_passed": 20,
+  "hook_cases": 20,
+  "userpromptsubmit_ms_median": 37.8,
+  "userpromptsubmit_ms_p95": 44.9
+ }
+}

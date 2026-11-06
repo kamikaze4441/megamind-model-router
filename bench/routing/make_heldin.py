@@ -1,0 +1,122 @@
+"""Held-in routing prompts: written by the router's author and used to tune the rules.
+The held-out set (heldout.jsonl) was written by a separate model from CLASSES.md alone."""
+import json
+
+P = {
+ "quick": [
+  "what does ZFS stand for",
+  "how many GB in a TB",
+  "whats the shortcut to take a screenshot on mac",
+  "what is a reverse proxy?",
+  "convert 72 fahrenheit to celsius",
+  "who wrote dune",
+  "what does HDR10+ mean",
+  "how do i open terminal on a mac",
+  "difference between RAM and storage?",
+  "what year did the ps5 come out",
+ ],
+ "search": [
+  "find every place in my repo where we call parse_date",
+  "go through my downloads folder and list all the PDFs from october",
+  "search the plex logs for any line that mentions transcoder",
+  "which files in this project import requests?",
+  "pull out all the dates and amounts from these 12 receipts",
+  "look through my notes for anything about room calibration",
+  "list all the docker containers that mount /mnt/user/media",
+  "where is the API base url defined in this codebase",
+  "count how many times the word 'refund' appears in the support emails",
+  "scan these server logs and show me every warning from last night",
+ ],
+ "write": [
+  "write an email to my landlord asking to fix the dishwasher, polite but firm",
+  "draft a reply to this message saying i cant make it friday",
+  "summarize this article in 5 bullets",
+  "translate this paragraph into punjabi",
+  "make this sound more professional: hey guys the server will be down tmrw",
+  "write a short bio for my github profile",
+  "rewrite my cover letter intro so it's less stiff",
+  "write a thank you note to my coworker for covering for me",
+  "explain how a VPN works to my grandma in simple words",
+  "write a reddit post asking for help choosing a 3d printer",
+ ],
+ "edit": [
+  "add a dark mode toggle to the settings page",
+  "write a python script that renames my photos by the date they were taken",
+  "refactor this function so it doesn't repeat the same loop twice",
+  "change the default port in config.yaml from 8080 to 9090",
+  "make a bash alias that updates all my brew packages",
+  "write a regex that matches canadian postal codes",
+  "rename the variable usr to user everywhere in utils.py",
+  "add input validation to the signup form, email and password length",
+  "convert this javascript function to typescript",
+  "write a cron job that runs my backup script every night at 3am",
+ ],
+ "debug": [
+  "my plex server keeps buffering on 4k movies, why",
+  "getting this when i run the script: ModuleNotFoundError: No module named 'pandas'",
+  "the docker container exits immediately with exit code 137",
+  "why does my python loop skip every other item when i remove from the list",
+  "sonarr isn't picking up new episodes anymore, it was fine last week",
+  "the website loads but the images are broken on mobile only",
+  "TypeError: cannot read properties of undefined (reading 'map') in my react app",
+  "my test passes locally but fails in github actions",
+  "the vm on unraid won't boot after the update, stuck on uefi shell",
+  "why is my gpu running at 80C idle",
+ ],
+ "risky": [
+  "how do i open port 32400 on my router so friends can stream from plex",
+  "i want to delete the old appdata folder for containers i removed, is it safe",
+  "help me migrate my unraid array to bigger drives without losing data",
+  "should i move my tfsa from index funds into individual stocks",
+  "change the ssh config so root can log in with a password",
+  "run rm -rf on the old backup share to free space",
+  "set up cloudflare tunnel to expose my home assistant to the internet",
+  "how much should i withdraw from my rrsp for the down payment",
+  "update my production database schema to add a column to the users table",
+  "chmod 777 the whole appdata share so the containers stop complaining",
+ ],
+ "review": [
+  "review this pull request for bugs before i merge it",
+  "fact check this blog post before i publish it",
+  "is my math right here? 3 payments of 412 plus 5% tax",
+  "look over my resume and tell me what's wrong",
+  "check this sql query for mistakes",
+  "can you proofread my essay for errors",
+  "audit my docker compose file for security issues",
+  "double check my budget spreadsheet formulas",
+  "did i miss anything in this packing list for japan",
+  "give me feedback on my landing page copy",
+ ],
+ "research": [
+  "compare two entry-level 3d printers for a beginner",
+  "what's the best nas for plex under $600",
+  "should i get an oled or a mini-led tv for a bright living room",
+  "what are people saying about the new pixel 11 battery life",
+  "best way to back up 20tb of media offsite cheaply",
+  "pros and cons of tailscale vs wireguard for remote access",
+  "which password manager is better, bitwarden or 1password",
+  "latest news on the rtx 6090 release",
+  "is a 900cc sport bike worth it as a first big bike",
+  "find me the cheapest flights to tokyo in march and compare airlines",
+ ],
+ "plan": [
+  "help me design the folder structure for my obsidian vault",
+  "plan out the architecture for a meal planning app with ios and android",
+  "how should i structure my home server so plex, the arr apps and backups don't step on each other",
+  "write a roadmap for learning to code over the next 6 months",
+  "what's the best approach for migrating my whole setup from unraid to proxmox long term",
+  "design a database schema for a recipe app",
+  "lay out a plan for my news digest app, phases and milestones",
+  "i need a strategy for organizing 10 years of photos",
+  "help me think through the tradeoffs of self hosting vs paying for cloud storage",
+  "write a spec for a discord bot that posts plex activity",
+ ],
+}
+
+with open("heldin.jsonl", "w", encoding="utf-8") as f:
+    n = 0
+    for cls, items in P.items():
+        for p in items:
+            n += 1
+            f.write(json.dumps({"id": f"hi-{n:03d}", "prompt": p, "class": cls}) + "\n")
+print(n, "prompts written")

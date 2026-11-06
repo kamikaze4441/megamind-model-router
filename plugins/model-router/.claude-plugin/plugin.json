@@ -1,0 +1,19 @@
+{
+  "name": "model-router",
+  "version": "0.2.0",
+  "description": "Gives Claude a routing card so it checks every prompt against the right model and effort and says so in one line when they don't fit; fixed-tier worker agents; every subagent spawn must name a model.",
+  "license": "MIT",
+  "author": {
+    "name": "kamikaze4441"
+  },
+  "repository": "https://github.com/kamikaze4441/megamind-model-router",
+  "homepage": "https://github.com/kamikaze4441/megamind-model-router",
+  "keywords": [
+    "routing",
+    "model",
+    "effort",
+    "subagents",
+    "orchestration",
+    "tokens"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "megamind-model-router",
+  "description": "model-router: pick the right Claude model and effort for every prompt, with fixed-tier worker agents",
+  "owner": {"name": "kamikaze4441"},
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./plugins/model-router",
+      "description": "Checks every prompt against a routing table and tells you when another model or effort fits better; fixed-tier worker agents; every subagent spawn names a model."
+    }
+  ]
+}

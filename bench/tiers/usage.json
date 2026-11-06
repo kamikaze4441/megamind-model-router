@@ -1,0 +1,71 @@
+{
+ "note": "From the Agent tool's usage line in this claude.ai session (Claude Code 2.1.319 harness), Nov 6 2026. subagent_tokens is the subagent's context size at the end (about 92k of it is the harness's fixed system prompt and tool list; a probe that only replied 'ok' read 93,051), not a billed total. Each run made 3 tool calls (Read, Write, hand-back).",
+ "A-haiku": {
+  "tokens": 93741,
+  "ms": 7737
+ },
+ "A-sonnet": {
+  "tokens": 93118,
+  "ms": 9583
+ },
+ "A-opus": {
+  "tokens": 93001,
+  "ms": 8223
+ },
+ "B-haiku": {
+  "tokens": 96725,
+  "ms": 24977
+ },
+ "B-sonnet": {
+  "tokens": 93468,
+  "ms": 19715
+ },
+ "B-opus": {
+  "tokens": 92787,
+  "ms": 18386
+ },
+ "C-haiku": {
+  "tokens": 93728,
+  "ms": 13665
+ },
+ "C-sonnet": {
+  "tokens": 92253,
+  "ms": 11264
+ },
+ "D-haiku": {
+  "tokens": 92245,
+  "ms": 6920
+ },
+ "D-sonnet": {
+  "tokens": 91606,
+  "ms": 6567
+ },
+ "D-opus": {
+  "tokens": 91581,
+  "ms": 7311
+ },
+ "probe-haiku": {
+  "tokens": 93051,
+  "ms": 4226
+ },
+ "C-opus": {
+  "tokens": 92849,
+  "ms": 18777
+ },
+ "judge-haiku": {
+  "tokens": 104297,
+  "ms": 18464
+ },
+ "judge-sonnet": {
+  "tokens": 102565,
+  "ms": 19767
+ },
+ "heldout-writer-sonnet": {
+  "tokens": 100473,
+  "ms": 81181
+ },
+ "heldout2-writer-opus": {
+  "tokens": 201606,
+  "ms": 1003705
+ }
+}

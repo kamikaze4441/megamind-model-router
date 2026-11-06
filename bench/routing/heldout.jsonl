@@ -1,0 +1,117 @@
+{"id": "ho-001", "prompt": "add a --dry-run flag to my backup.py script", "class": "edit", "why": "Scoped feature in one script"}
+{"id": "ho-002", "prompt": "rename the variable x to price_total everywhere in this file", "class": "edit", "why": "Rename"}
+{"id": "ho-003", "prompt": "review my compose file, anything wrong?\nservices:\n  plex:\n    image: lscr.io/linuxserver/plex\n    network_mode: host\n    volumes:\n      - /mnt/user/appdata/plex:/config", "class": "review", "why": "Review config for errors"}
+{"id": "ho-004", "prompt": "explain how docker volumes work like im new to this", "class": "write", "why": "Explanation for a reader"}
+{"id": "ho-005", "prompt": "migrate my array disks from xfs to btrfs without losing anything, whats the safest order", "class": "risky", "why": "Data migration, hard to undo"}
+{"id": "ho-006", "prompt": "shortcut to reopen a closed browser tab", "class": "quick", "why": "One-step how-to"}
+{"id": "ho-007", "prompt": "npm ERR! code ERESOLVE\nnpm ERR! Could not resolve dependency: peer react@\"^17\" what does this mean", "class": "debug", "why": "Error message"}
+{"id": "ho-008", "prompt": "proofread: Hi Dana, Thanks for you're quick response. I'll send the invoice by friday and let you know if their are any changes.", "class": "review", "why": "Proofreading"}
+{"id": "ho-009", "prompt": "rewrite the docstring on load_config() so it explains the return value", "class": "edit", "why": "borderline: edit over write; docstring in code"}
+{"id": "ho-010", "prompt": "can i just delete the appdata folder for the old plex container? i moved to a new one last week but not sure if anything still points to it", "class": "risky", "why": "Deleting data that may still be in use"}
+{"id": "ho-011", "prompt": "are heat pumps worth it around vancouver, costs and rebates", "class": "research", "why": "Open question needing sources"}
+{"id": "ho-012", "prompt": "what's the current state of local llms that fit in 24gb vram", "class": "research", "why": "Current state of a field"}
+{"id": "ho-013", "prompt": "does this crontab line run every 15 minutes? */15 * * * * /usr/local/bin/sync.sh", "class": "review", "why": "Verify existing config"}
+{"id": "ho-014", "prompt": "review this PR diff. mostly renames plus one new function parse_date()", "class": "review", "why": "Pull request review"}
+{"id": "ho-015", "prompt": "collect all the links in this document", "class": "search", "why": "Extract from document"}
+{"id": "ho-016", "prompt": "TypeError: 'NoneType' object is not subscriptable on line 42 of parse.py", "class": "debug", "why": "Error message"}
+{"id": "ho-017", "prompt": "this crashes on an empty list, fix it: def avg(x): return sum(x)/len(x)", "class": "debug", "why": "borderline: debug over edit; crash with unknown cause"}
+{"id": "ho-018", "prompt": "why is plex buffering only on the 4k files? 1080p is fine", "class": "debug", "why": "Unexplained slowdown"}
+{"id": "ho-019", "prompt": "search my notes for anything about the vpn setup", "class": "search", "why": "Search notes"}
+{"id": "ho-020", "prompt": "good ups for a home server? apc vs cyberpower, price and runtime", "class": "research", "why": "Product comparison"}
+{"id": "ho-021", "prompt": "bitwarden vs 1password vs proton pass, which one", "class": "research", "why": "Product comparison"}
+{"id": "ho-022", "prompt": "best mesh wifi for a 2 floor house, wifi 7 worth it yet?", "class": "research", "why": "Buying decision"}
+{"id": "ho-023", "prompt": "list every line in this log that contains timeout\n\n12:01 connect ok\n12:02 timeout talking to db\n12:05 retry\n12:09 timeout talking to cache", "class": "search", "why": "Match lines in pasted log"}
+{"id": "ho-024", "prompt": "write an email to my landlord asking him to fix the leaking kitchen faucet, polite but firm", "class": "write", "why": "Email"}
+{"id": "ho-025", "prompt": "is 10.0.0.0/8 a private range", "class": "quick", "why": "Stable fact"}
+{"id": "ho-026", "prompt": "should i put my whole TFSA into one etf right now", "class": "risky", "why": "Investing decision with money at stake"}
+{"id": "ho-027", "prompt": "zigbee or z-wave? i want a smart home setup that still works in 10 years", "class": "plan", "why": "borderline: plan over research; long-term approach choice"}
+{"id": "ho-028", "prompt": "forward port 32400 on my router so plex works outside the house? is that safe", "class": "risky", "why": "Opening a port to the internet"}
+{"id": "ho-029", "prompt": "rewrite this to sound more professional: hey cant make it to the thing, sorry", "class": "write", "why": "Rewrite prose"}
+{"id": "ho-030", "prompt": "write a small script that renames all .jpeg files in a folder to .jpg", "class": "edit", "why": "Small script"}
+{"id": "ho-031", "prompt": "where in this repo is DATABASE_URL set", "class": "search", "why": "Locate in code"}
+{"id": "ho-032", "prompt": "350F in celsius", "class": "quick", "why": "Conversion"}
+{"id": "ho-033", "prompt": "is 16gb ram enough for windows 11", "class": "quick", "why": "borderline: quick over research; well-known answer"}
+{"id": "ho-034", "prompt": "my lease renewal has an auto-renew clause and a 3 month penalty if i leave early. should i sign it", "class": "risky", "why": "Legal commitment"}
+{"id": "ho-035", "prompt": "is the newest pixel worth it over an iphone", "class": "research", "why": "borderline: research over quick; opinion needs sources"}
+{"id": "ho-036", "prompt": "architecture for a discord bot that posts when plex adds a new movie", "class": "plan", "why": "Architecture design"}
+{"id": "ho-037", "prompt": "how many mb in a gb", "class": "quick", "why": "Stable fact"}
+{"id": "ho-038", "prompt": "look through this log and find the line where the crash starts", "class": "search", "why": "borderline: search over debug; locate, not diagnose"}
+{"id": "ho-039", "prompt": "draft an outline for a 90 day plan to get promoted to team lead", "class": "plan", "why": "Strategy plan"}
+{"id": "ho-040", "prompt": "add type hints to these three functions", "class": "edit", "why": "Scoped change"}
+{"id": "ho-041", "prompt": "text to my sister reminding her about saturday dinner, casual", "class": "write", "why": "Short message"}
+{"id": "ho-042", "prompt": "=VLOOKUP(A2,Sheet2!A:B,2,0) gives #N/A but the value is right there in column A", "class": "debug", "why": "Formula returns wrong result"}
+{"id": "ho-043", "prompt": "which hdd for unraid: ironwolf vs exos vs wd red. price per tb and failure rates", "class": "research", "why": "Comparison with data"}
+{"id": "ho-044", "prompt": "outline a 3 phase plan to split my one giant docker compose file into separate stacks", "class": "plan", "why": "Phased restructuring plan"}
+{"id": "ho-045", "prompt": "best 4-bay NAS vs building my own unraid box in 2026, compare the options", "class": "research", "why": "Product comparison"}
+{"id": "ho-046", "prompt": "my script is one 600 line file. how do i break it into modules in stages without breaking everything", "class": "plan", "why": "Staged restructuring"}
+{"id": "ho-047", "prompt": "write a readme for my home server scripts repo, 6 scripts, backup and cleanup stuff", "class": "write", "why": "Documentation"}
+{"id": "ho-048", "prompt": "Please verify the figures in this summary against the table above and flag anything that doesn't match.", "class": "review", "why": "Fact-check against source"}
+{"id": "ho-049", "prompt": "does this regex correctly match canadian postal codes? ^[A-Z]\\d[A-Z] ?\\d[A-Z]\\d$", "class": "review", "why": "Check existing regex"}
+{"id": "ho-050", "prompt": "find the pdf where i saved my tax slip, think its in downloads", "class": "search", "why": "Locate file"}
+{"id": "ho-051", "prompt": "how to unzip a tar.gz", "class": "quick", "why": "One-step how-to"}
+{"id": "ho-052", "prompt": "write a thank-you note for a coworker who is retiring after 30 years", "class": "write", "why": "Note"}
+{"id": "ho-053", "prompt": "what's another word for happy", "class": "quick", "why": "borderline: quick over write; simple lookup"}
+{"id": "ho-054", "prompt": "pull out all the dates and dollar amounts from this invoice text", "class": "search", "why": "Extract items from text"}
+{"id": "ho-055", "prompt": "which espresso grinder under 600 is actually best? check reddit and coffee review sites", "class": "research", "why": "Buying decision from sources"}
+{"id": "ho-056", "prompt": "find the function that sends the email and change the subject line to include today's date", "class": "edit", "why": "borderline: edit over search; locate then change"}
+{"id": "ho-057", "prompt": "I want a small app that tracks monthly bills and warns before due dates. write a spec, and tell me whether to use a database or just a spreadsheet", "class": "plan", "why": "Spec and approach choice"}
+{"id": "ho-058", "prompt": "wifi drops every night around 8pm. router log:\nNov 3 20:02:11 wlan0: deauth reason 3\nNov 3 20:02:14 wlan0: disassoc", "class": "debug", "why": "Intermittent failure with log"}
+{"id": "ho-059", "prompt": "audit this function for bugs, nothing is failing yet\n\ndef paginate(items, n):\n    return [items[i:i+n] for i in range(0, len(items), n)]", "class": "review", "why": "borderline: review over debug; no known failure"}
+{"id": "ho-060", "prompt": "find the page in the unraid docs about cache pools", "class": "search", "why": "borderline: search over research; single locate"}
+{"id": "ho-061", "prompt": "set up a yearly maintenance schedule for the car and the house", "class": "plan", "why": "Schedule/strategy"}
+{"id": "ho-062", "prompt": "check my resume bullets for errors and weak wording", "class": "review", "why": "Proofread for correctness"}
+{"id": "ho-063", "prompt": "how should i organize budget categories for next year? zero-based or 50/30/20", "class": "plan", "why": "Choosing a budgeting structure"}
+{"id": "ho-064", "prompt": "how should i structure my media folders and shares on unraid so radarr sonarr and plex all hardlink properly long term", "class": "plan", "why": "System structure with long-term effects"}
+{"id": "ho-065", "prompt": "product description for my used mountain bike for a marketplace listing", "class": "write", "why": "Listing text"}
+{"id": "ho-066", "prompt": "grep the auth log for failed ssh logins last night", "class": "search", "why": "Match log entries"}
+{"id": "ho-067", "prompt": "what does RAID 1 mean", "class": "quick", "why": "Known definition"}
+{"id": "ho-068", "prompt": "double check my math: 12% of 4,350 is 522, then add 5% gst on top", "class": "review", "why": "Verify calculation"}
+{"id": "ho-069", "prompt": "sonarr keeps redownloading episodes i already have. why", "class": "debug", "why": "Unexpected behavior"}
+{"id": "ho-070", "prompt": "docker: Error response from daemon: driver failed programming external connectivity on endpoint plex: bind: address already in use", "class": "debug", "why": "Error message, cause unknown"}
+{"id": "ho-071", "prompt": "tailscale says connected but i cant reach the server from my phone on cellular, home wifi works", "class": "debug", "why": "Connectivity failure"}
+{"id": "ho-072", "prompt": "summarize this for me: The committee met on Tuesday and agreed to extend the deadline by two weeks, pending budget approval. A vote is planned for the next meeting.", "class": "write", "why": "Summary of given text"}
+{"id": "ho-073", "prompt": "can you look over this bash script before i set it as a cron job\n#!/bin/bash\ncd /mnt/user/media\nls *.mkv | wc -l >> /tmp/count.txt", "class": "review", "why": "Check existing script for errors"}
+{"id": "ho-074", "prompt": "find all the .env files under /mnt/user/appdata", "class": "search", "why": "Locate files"}
+{"id": "ho-075", "prompt": "write a python function that converts celsius to fahrenheit and rounds to 1 decimal", "class": "edit", "why": "Small function"}
+{"id": "ho-076", "prompt": "pytest passes on my laptop but fails in CI, same python version. what could differ", "class": "debug", "why": "Failing test, unknown cause"}
+{"id": "ho-077", "prompt": "list the containers using more than 1gb ram from this docker stats output", "class": "search", "why": "Filter given output"}
+{"id": "ho-078", "prompt": "project structure for a flask app with login, an api and an admin section", "class": "plan", "why": "Project structure"}
+{"id": "ho-079", "prompt": "unraid shows a drive with a red x but smart says passed??", "class": "debug", "why": "Contradictory symptom"}
+{"id": "ho-080", "prompt": "refactor to a list comprehension:\nresult = []\nfor x in nums:\n    if x > 0:\n        result.append(x * 2)", "class": "edit", "why": "Refactor"}
+{"id": "ho-081", "prompt": "got a letter from CRA saying i owe more tax from last year. do i just pay it or dispute it", "class": "risky", "why": "Tax and payment decision"}
+{"id": "ho-082", "prompt": "one line birthday message for my dad", "class": "write", "why": "borderline: write over quick; short prose"}
+{"id": "ho-083", "prompt": "what port does ssh use by default", "class": "quick", "why": "Stable fact"}
+{"id": "ho-084", "prompt": "what does TFSA contribution room mean", "class": "quick", "why": "Known definition"}
+{"id": "ho-085", "prompt": "cover letter intro paragraph for a warehouse supervisor role", "class": "write", "why": "Prose for a reader"}
+{"id": "ho-086", "prompt": "set timeout to 30 in config.yaml", "class": "edit", "why": "Setting change in file"}
+{"id": "ho-087", "prompt": "which of my email threads mention the dishwasher warranty", "class": "search", "why": "Find in inbox"}
+{"id": "ho-088", "prompt": "capital of australia", "class": "quick", "why": "Stable fact"}
+{"id": "ho-089", "prompt": "explain the difference between raid and unraid parity", "class": "write", "why": "borderline: write over research; explanation of known concept"}
+{"id": "ho-090", "prompt": "translate to french: thank you for your patience, we will get back to you shortly", "class": "write", "why": "Translation"}
+{"id": "ho-091", "prompt": "make me a 6 month roadmap to learn python, i have about 5 hours a week", "class": "plan", "why": "Roadmap"}
+{"id": "ho-092", "prompt": "my script prints None instead of the total\n\ndef total(items):\n    s = 0\n    for i in items:\n        s += i['price']\n\nprint(total(cart))", "class": "debug", "why": "Wrong output, cause unknown"}
+{"id": "ho-093", "prompt": "make the script log to a file instead of printing to the screen", "class": "edit", "why": "Scoped change"}
+{"id": "ho-094", "prompt": "how do i take a screenshot on a mac", "class": "quick", "why": "One-step how-to"}
+{"id": "ho-095", "prompt": "best way to back up phone photos without google", "class": "research", "why": "Open question, several options"}
+{"id": "ho-096", "prompt": "add a dark mode toggle to index.html, the css is in style.css", "class": "edit", "why": "Feature across a few files"}
+{"id": "ho-097", "prompt": "which files in this folder are bigger than 5gb", "class": "search", "why": "List by condition"}
+{"id": "ho-098", "prompt": "decision record: sqlite vs postgres for my homelab dashboard", "class": "plan", "why": "Decision record"}
+{"id": "ho-099", "prompt": "disable password login in sshd_config on my server, i'm connected over ssh right now so dont lock me out", "class": "risky", "why": "borderline: risky over edit; config change can lock out"}
+{"id": "ho-100", "prompt": "compare jackery vs ecoflow portable power stations for camping", "class": "research", "why": "Product comparison"}
+{"id": "ho-101", "prompt": "ryzen vs intel for a plex server with lots of transcoding", "class": "research", "why": "Hardware comparison"}
+{"id": "ho-102", "prompt": "update all my docker containers at once tonight, family is probably streaming plex though", "class": "risky", "why": "Changing live services"}
+{"id": "ho-103", "prompt": "rm -rf /mnt/user/downloads/* is that going to nuke my other shares too", "class": "risky", "why": "Destructive command on live data"}
+{"id": "ho-104", "prompt": "design a backup strategy for the server. roughly 40tb media, 2tb of stuff i really cant lose", "class": "plan", "why": "Backup architecture"}
+{"id": "ho-105", "prompt": "what is the best way to learn docker as a non programmer", "class": "research", "why": "borderline: research over quick; open how-to question"}
+{"id": "ho-106", "prompt": "Is it safe to take ibuprofen together with my blood pressure pills?", "class": "risky", "why": "Medical decision"}
+{"id": "ho-107", "prompt": "convert this csv parsing code to use pandas", "class": "edit", "why": "Scoped rewrite"}
+{"id": "ho-108", "prompt": "read my cover letter and tell me if there are grammar mistakes", "class": "review", "why": "Grammar check"}
+{"id": "ho-109", "prompt": "guy on marketplace wants an e-transfer upfront to hold a used gpu before we meet. fine to send $200?", "class": "risky", "why": "borderline: risky over research; payment to stranger"}
+{"id": "ho-110", "prompt": "change the plex port mapping in my compose file to 32401", "class": "edit", "why": "Config change"}
+{"id": "ho-111", "prompt": "whats the command to see disk space in linux", "class": "quick", "why": "One-step how-to"}
+{"id": "ho-112", "prompt": "parity drive shows disabled with a red x, can i just format it and rebuild parity", "class": "risky", "why": "borderline: risky over debug; formatting loses data"}
+{"id": "ho-113", "prompt": "i pasted my api key in a public github repo by accident. what do i do", "class": "risky", "why": "Leaked credential, security impact"}
+{"id": "ho-114", "prompt": "write a reddit post asking for help choosing parity drive size, include that i have 6 data disks and mostly media", "class": "write", "why": "Post"}
+{"id": "ho-115", "prompt": "here's the spec i wrote for my media tagging tool. can you find gaps or contradictions in it", "class": "review", "why": "borderline: review over plan; checking existing spec"}
+{"id": "ho-116", "prompt": "mover has been running 2 days and the whole array is crawling", "class": "debug", "why": "Slowdown, cause unknown"}
+{"id": "ho-117", "prompt": "fact check this: The first iPhone came out in 2008 and supported 3G.", "class": "review", "why": "Fact-check"}

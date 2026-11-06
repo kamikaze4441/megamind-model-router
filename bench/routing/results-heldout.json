@@ -1,0 +1,63 @@
+{
+ "set": "heldout.jsonl",
+ "n": 117,
+ "class_accuracy": 0.675,
+ "tier_accuracy": 0.769,
+ "under_routed": 22,
+ "over_routed": 5,
+ "silent": 28,
+ "risky_under_routed": "3/13",
+ "ms_per_prompt": 0.348,
+ "confusion": {
+  "edit": {
+   "edit": 7,
+   "write": 1,
+   "unsure": 2,
+   "search": 1,
+   "quick": 1,
+   "risky": 1
+  },
+  "review": {
+   "review": 8,
+   "edit": 1,
+   "quick": 1,
+   "write": 1,
+   "unsure": 1,
+   "plan": 1
+  },
+  "write": {
+   "unsure": 6,
+   "write": 6,
+   "quick": 1
+  },
+  "risky": {
+   "risky": 10,
+   "quick": 1,
+   "unsure": 2
+  },
+  "quick": {
+   "quick": 11,
+   "unsure": 2
+  },
+  "debug": {
+   "quick": 1,
+   "debug": 5,
+   "unsure": 6,
+   "edit": 1
+  },
+  "research": {
+   "research": 12,
+   "review": 1
+  },
+  "search": {
+   "search": 11,
+   "risky": 1,
+   "quick": 1
+  },
+  "plan": {
+   "unsure": 3,
+   "plan": 9,
+   "write": 1
+  }
+ }
+}
