@@ -1,0 +1,9 @@
+eb62c31e74641ae5d6f92512a55c19a832da3ec90dc9a51ec5a7112dc638a85e  next/bench/routing/traps3.jsonl
+2ab1f31ea0b076792ad5ffd6fd6bb4dfcd0e1849ae796916fc127ff4cf45e9fb  next/bench/routing/traps3-run/skill-old.md
+19e432aa5977dfd639f4715bf499852ab639be09f63c5da6e2716cbb3be5af9e  next/bench/routing/traps3-run/skill-new.md
+a33e350e19cba1bb78117cf455e4dad1465ece87b07698649b5768b6aabbb20b  next/bench/routing/traps3-run/policy.json
+00eef404f3e655153393de4526a38e7d6a0e27104a3fb6814b9b43b3c20c1ae8  next/bench/routing/traps3-run/task-old.md
+8185663cbf429cf4f27ecd2dc4f35a5c359525de718df5308f1ebc0eb79f0f73  next/bench/routing/traps3-run/task-new.md
+f6ebe3eb3cb715129991b8066d4b2bc5e84d90e99a0d0325d6268e88e4cdd3ee  next/bench/routing/score_traps.js
+385561cd00cbc6eb461c6724bcab36fdf9f92a1b7cf4a380080e689d3e30fe1f  next/bench/routing/traps3-run/compare.js
+8ebfcdccb6b9d68d00a02100eebca6bdd66c77ba8fd15b7d22fffd89c87137b2  next/bench/routing/traps3-run/make_traps3.js

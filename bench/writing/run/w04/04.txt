@@ -1,0 +1,9 @@
+Imagine a post box with a slot in the top. Anyone can post a letter through that slot, but only the person holding the key can open the box and read what is inside.
+
+Public-key encryption works the same way. Your bank, or anyone else who wants to send you a secret message, uses your public key to lock the message. Your public key is like the slot. You can give it to anyone, put it on a website, and it does no harm, because it can only put messages in, never take them out.
+
+Your private key is the only key that opens the box. It stays with you. You never share it with anyone, not with your bank, not with a friend, and not with the company that made your phone.
+
+That is why this works even between people who have never met. A stranger can send you a secret without ever meeting you. Anyone who sees the message on its way cannot read it, because they have only the slot, not the key.
+
+When you bank online, your browser uses this kind of locking to protect your details on their way to the bank.

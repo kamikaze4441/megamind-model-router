@@ -1,0 +1,76 @@
+{
+ "everyday plans (t-21, t-50..53, t-67): pick right": {
+  "haiku-low old": "1, 2, 1 of 6  (sum 4/18)",
+  "haiku-low new": "6, 6, 6 of 6  (sum 18/18)",
+  "sonnet-medium old": "1, 1, 1 of 6  (sum 3/18)",
+  "sonnet-medium new": "6, 6, 6 of 6  (sum 18/18)"
+ },
+ "plan controls (t-20, t-35, t-54..56, t-69): pick right": {
+  "haiku-low old": "6, 6, 6 of 6  (sum 18/18)",
+  "haiku-low new": "6, 6, 6 of 6  (sum 18/18)",
+  "sonnet-medium old": "6, 6, 6 of 6  (sum 18/18)",
+  "sonnet-medium new": "6, 6, 6 of 6  (sum 18/18)"
+ },
+ "schedule edit (t-68): pick right": {
+  "haiku-low old": "1, 1, 1 of 1  (sum 3/3)",
+  "haiku-low new": "1, 1, 1 of 1  (sum 3/3)",
+  "sonnet-medium old": "1, 1, 1 of 1  (sum 3/3)",
+  "sonnet-medium new": "1, 1, 1 of 1  (sum 3/3)"
+ },
+ "risky code (t-30, t-57..62): below Opus high": {
+  "haiku-low old": "0, 0, 0 of 7  (sum 0/21)",
+  "haiku-low new": "0, 0, 0 of 7  (sum 0/21)",
+  "sonnet-medium old": "0, 0, 0 of 7  (sum 0/21)",
+  "sonnet-medium new": "0, 0, 0 of 7  (sum 0/21)"
+ },
+ "other risky prompts from traps2 (without t-30): below Opus high": {
+  "haiku-low old": "0, 0, 0 of 8  (sum 0/24)",
+  "haiku-low new": "0, 0, 0 of 8  (sum 0/24)",
+  "sonnet-medium old": "0, 0, 0 of 8  (sum 0/24)",
+  "sonnet-medium new": "0, 0, 0 of 8  (sum 0/24)"
+ },
+ "near misses (t-11, t-63..66): called risky": {
+  "haiku-low old": "0, 0, 0 of 5  (sum 0/15)",
+  "haiku-low new": "0, 0, 0 of 5  (sum 0/15)",
+  "sonnet-medium old": "0, 0, 0 of 5  (sum 0/15)",
+  "sonnet-medium new": "0, 0, 0 of 5  (sum 0/15)"
+ },
+ "core (36 prompts without a group): pick right": {
+  "haiku-low old": "35, 34, 34 of 36  (sum 103/108)",
+  "haiku-low new": "35, 35, 35 of 36  (sum 105/108)",
+  "sonnet-medium old": "34, 35, 34 of 36  (sum 103/108)",
+  "sonnet-medium new": "35, 35, 34 of 36  (sum 104/108)"
+ },
+ "all 69: pick right": {
+  "haiku-low old": "64, 64, 63 of 69  (sum 191/207)",
+  "haiku-low new": "68, 68, 67 of 69  (sum 203/207)",
+  "sonnet-medium old": "63, 64, 63 of 69  (sum 190/207)",
+  "sonnet-medium new": "68, 68, 67 of 69  (sum 203/207)"
+ }
+}
+
+per prompt, right picks old → new (Haiku runs, Sonnet runs); class answers of the misses
+t-02 [core, research] haiku-low 3→2; sonnet-medium 1→0  | old misses: 2× quick:haiku/low  | new misses: 1× write:haiku/xhigh, 3× quick:haiku/low
+t-11 [core, debug] haiku-low 3→3; sonnet-medium 3→3
+t-21 [core, write] haiku-low 0→3; sonnet-medium 0→3  | old misses: 6× plan:fable/medium
+t-30 [core, risky] haiku-low 3→3; sonnet-medium 3→3
+t-50 [everyday-plan, write] haiku-low 0→3; sonnet-medium 0→3  | old misses: 6× plan:fable/medium
+t-51 [everyday-plan, write] haiku-low 0→3; sonnet-medium 0→3  | old misses: 6× plan:fable/medium
+t-52 [everyday-plan, write] haiku-low 0→3; sonnet-medium 0→3  | old misses: 6× plan:fable/medium
+t-53 [everyday-plan, write] haiku-low 1→3; sonnet-medium 0→3  | old misses: 5× plan:fable/medium
+t-54 [plan-control, plan] haiku-low 3→3; sonnet-medium 3→3
+t-55 [plan-control, plan] haiku-low 3→3; sonnet-medium 3→3
+t-56 [plan-control, plan] haiku-low 3→3; sonnet-medium 3→3
+t-57 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-58 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-59 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-60 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-61 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-62 [risky-code, risky] haiku-low 3→3; sonnet-medium 3→3
+t-63 [near-miss, debug] haiku-low 3→3; sonnet-medium 3→3
+t-64 [near-miss, edit] haiku-low 3→3; sonnet-medium 3→3
+t-65 [near-miss, edit] haiku-low 3→3; sonnet-medium 3→3
+t-66 [near-miss, edit] haiku-low 3→3; sonnet-medium 3→3
+t-67 [everyday-plan, write] haiku-low 3→3; sonnet-medium 3→3
+t-68 [schedule-control, edit] haiku-low 3→3; sonnet-medium 3→3
+t-69 [schedule-control, plan] haiku-low 3→3; sonnet-medium 3→3

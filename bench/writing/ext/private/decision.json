@@ -1,0 +1,36 @@
+{
+ "pairs": 36,
+ "threshold": 24,
+ "graders": {
+  "g1": {
+   "ext": {
+    "ranks": 10,
+    "combined": 10
+   },
+   "total": {
+    "ranks": 30,
+    "combined": 30
+   },
+   "rubric": {
+    "sonnet-medium": 4.95,
+    "haiku-xhigh": 4.67
+   }
+  },
+  "g2": {
+   "ext": {
+    "ranks": 11,
+    "combined": 11
+   },
+   "total": {
+    "ranks": 27,
+    "combined": 27
+   },
+   "rubric": {
+    "sonnet-medium": 4.93,
+    "haiku-xhigh": 4.65
+   }
+  }
+ },
+ "min": 27,
+ "wins": true
+}

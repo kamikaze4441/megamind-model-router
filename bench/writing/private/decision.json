@@ -1,0 +1,235 @@
+{
+ "valid": true,
+ "comparisons": [
+  {
+   "a": "sonnet-medium",
+   "b": "haiku-xhigh",
+   "pairs": 24,
+   "threshold": 16,
+   "counts": {
+    "g1": {
+     "ranks": 20,
+     "combined": 20
+    },
+    "g2": {
+     "ranks": 16,
+     "combined": 16
+    }
+   },
+   "min": 16,
+   "wins": true,
+   "borderline": true
+  },
+  {
+   "a": "sonnet-high",
+   "b": "haiku-xhigh",
+   "pairs": 24,
+   "threshold": 16,
+   "counts": {
+    "g1": {
+     "ranks": 21,
+     "combined": 21
+    },
+    "g2": {
+     "ranks": 20,
+     "combined": 20
+    }
+   },
+   "min": 20,
+   "wins": true,
+   "borderline": false
+  },
+  {
+   "a": "sonnet-high",
+   "b": "sonnet-medium",
+   "pairs": 24,
+   "threshold": 16,
+   "counts": {
+    "g1": {
+     "ranks": 11,
+     "combined": 11
+    },
+    "g2": {
+     "ranks": 12,
+     "combined": 12
+    }
+   },
+   "min": 11,
+   "wins": false,
+   "borderline": false
+  }
+ ],
+ "verdict": "Sonnet medium is the candidate start (both Sonnet arms beat Haiku xhigh; Sonnet high did not beat Sonnet medium by the same rule). Provisional until the owner ranks. BORDERLINE for sonnet-medium: one pair would flip it, so one more writer run for Haiku xhigh and that arm is graded and that result is final.",
+ "stats": {
+  "g1": {
+   "haiku-xhigh": {
+    "meanRank": 4.83,
+    "firsts": 1,
+    "topTwo": 3,
+    "texts": 24,
+    "rubric": {
+     "facts": 4.54,
+     "limits": 4.96,
+     "clear": 4.42,
+     "tone": 4.54,
+     "filler": 4.21
+    },
+    "rubricMean": 4.53
+   },
+   "sonnet-medium": {
+    "meanRank": 2.83,
+    "firsts": 6,
+    "topTwo": 10,
+    "texts": 24,
+    "rubric": {
+     "facts": 4.83,
+     "limits": 4.96,
+     "clear": 4.92,
+     "tone": 4.79,
+     "filler": 4.67
+    },
+    "rubricMean": 4.83
+   },
+   "sonnet-high": {
+    "meanRank": 2.83,
+    "firsts": 5,
+    "topTwo": 11,
+    "texts": 24,
+    "rubric": {
+     "facts": 5,
+     "limits": 5,
+     "clear": 4.75,
+     "tone": 4.79,
+     "filler": 4.54
+    },
+    "rubricMean": 4.82
+   }
+  },
+  "g2": {
+   "haiku-xhigh": {
+    "meanRank": 4.5,
+    "firsts": 2,
+    "topTwo": 4,
+    "texts": 24,
+    "rubric": {
+     "facts": 4.67,
+     "limits": 4.92,
+     "clear": 4.46,
+     "tone": 4.54,
+     "filler": 4.17
+    },
+    "rubricMean": 4.55
+   },
+   "sonnet-medium": {
+    "meanRank": 3.21,
+    "firsts": 5,
+    "topTwo": 11,
+    "texts": 24,
+    "rubric": {
+     "facts": 4.67,
+     "limits": 4.92,
+     "clear": 4.75,
+     "tone": 4.96,
+     "filler": 4.54
+    },
+    "rubricMean": 4.77
+   },
+   "sonnet-high": {
+    "meanRank": 2.79,
+    "firsts": 5,
+    "topTwo": 9,
+    "texts": 24,
+    "rubric": {
+     "facts": 4.96,
+     "limits": 4.96,
+     "clear": 4.71,
+     "tone": 4.88,
+     "filler": 4.63
+    },
+    "rubricMean": 4.83
+   }
+  }
+ },
+ "scriptPass": {
+  "haiku-xhigh": {
+   "pass": 23,
+   "of": 24
+  },
+  "sonnet-medium": {
+   "pass": 24,
+   "of": 24
+  },
+  "sonnet-high": {
+   "pass": 24,
+   "of": 24
+  }
+ },
+ "graderAgreement": {
+  "same": 148,
+  "of": 180,
+  "share": 0.822
+ },
+ "byKind": {
+  "apology": {
+   "haiku-xhigh": 5.5,
+   "sonnet-medium": 2.5,
+   "sonnet-high": 2.5
+  },
+  "summary": {
+   "haiku-xhigh": 4.38,
+   "sonnet-medium": 2.63,
+   "sonnet-high": 3.5
+  },
+  "translation": {
+   "haiku-xhigh": 3,
+   "sonnet-medium": 4.38,
+   "sonnet-high": 3.13
+  },
+  "explanation": {
+   "haiku-xhigh": 5.5,
+   "sonnet-medium": 2,
+   "sonnet-high": 3
+  },
+  "forum": {
+   "haiku-xhigh": 4.25,
+   "sonnet-medium": 3.75,
+   "sonnet-high": 2.5
+  },
+  "rewrite": {
+   "haiku-xhigh": 5.38,
+   "sonnet-medium": 2.88,
+   "sonnet-high": 2.25
+  }
+ },
+ "owner": null,
+ "notes": {
+  "g1": {
+   "t01": "A owns the error plainly and orders facts well; C opens abruptly and ends with a stock thank-you; B splits refund from replacement.",
+   "t02": "B gives every required item plus the caveat and the local harms behind Option C; F opens with filler and buries the point in detail.",
+   "t03": "C is faithful, idiomatic and keeps the company name; E blurs the pressure reason and flushing, D translates the name and is clunky.",
+   "t04": "E keeps the padlock image vivid and ties it to banking; F mixes keys and padlocks and switches whose message it is.",
+   "t05": "F is complete, tight and ends with one precise question; C and D end with compound two-part questions.",
+   "t06": "E is complete, dated and natural; F merges the move and crates into one block and leaves Thursday undated.",
+   "t07": "D owns the failure and stays lean; E pads with 'we want to explain' and a repeated apology and never owns the mistake.",
+   "t08": "C covers all five points with the why of the sales rebound; F omits why sales grew and names Helen Marsh unintroduced.",
+   "t09": "F reads most naturally (entliehen, Obergeschoss, direct address); B repeats 'zur Verfügung' and uses 'ab ... den'.",
+   "t10": "D explains wear simply with a clear image and useful tips; B wrongly calls heat the main cause and repeats itself.",
+   "t11": "A gives every detail plus deadline and one focused question; F asks a second question about grit and E drops the deadline.",
+   "t12": "A is complete, warm and tight; E is the longest and keeps more of the original's padding."
+  },
+  "g2": {
+   "t01": "A: complete, warm, owns the error, tight. D: abrupt opening and awkward 'made when our warehouse picked' phrasing.",
+   "t02": "D: every required point plus context, crisp. B: empty opening sentence and over-detailed recommendation, no sense of trade-offs.",
+   "t03": "D: natural, accurate, 'montags bis freitags' right. F: translated company name, 'werktags' includes Saturday, wordy phrasing.",
+   "t04": "F: vivid single padlock image, clean link to banking. C: mixes keys and padlocks and switches who is sender, confusing.",
+   "t05": "D: error in title, tidy sections, one sharp question. E: title says 1-2 days, unlabelled blocks, weaker question.",
+   "t06": "E: shortest, every action item with full dates. A: crate deadline 'end of Thursday' without date, slightly wordier.",
+   "t07": "A: owns the failure, credit framed as apology, lean. D: 'we want to explain' padding and repeated apology.",
+   "t08": "D: all five points, accurate cause of parts problem, reasons for recovery. A: says drawings were lost, a slight distortion of the flood detail.",
+   "t09": "E: idiomatic ('entliehenen', colon construction), clear Bibliotheksausweis. F: 'zur Verfügung' twice in one sentence, clumsy.",
+   "t10": "A: clear analogy, explains early shutdown, solid tips. D: calls heat the main cause and one tip is about power use, not wear.",
+   "t11": "A: all details, deadline, one precise question. C: openly adds a second question about grit and is wordy.",
+   "t12": "D: all five items in 101 words, nothing extra. B: longest, keeps the long greeting and sign-off padding."
+  }
+ }
+}

@@ -1,0 +1,7 @@
+Imagine a metal box with a padlock, and the owner has a single key that never leaves their pocket. The owner posts out open padlocks to anyone who asks for one. Each open padlock is a public key. Anyone can have a copy, including strangers.
+
+Say you want to send a secret message to someone you have never met. You ask them for one of their open padlocks, and they post it to you. You put your message in the box, snap their padlock shut and send the box on. Once the padlock clicks shut, nobody holding that padlock can open it again, not even you.
+
+Only the owner can open the box. Their private key, the one that never leaves their pocket, is the only thing that unlocks it. Handing out padlocks does not weaken anything, because a padlock cannot open the box it has closed.
+
+Online banking works in the same way. When your bank locks your details with its public key, a stranger who intercepts the message cannot read it, because only the bank's private key opens it. Nothing secret has to be shared in advance, and the one key that matters is the one the bank never gives away.

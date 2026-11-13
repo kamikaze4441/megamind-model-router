@@ -1,24 +1,72 @@
 {
   "hooks": {
     "SessionStart": [
-      {"matcher": "startup|resume|clear|compact",
-       "hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ],
     "UserPromptSubmit": [
-      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ],
     "PreModelSwitch": [
-      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ],
     "PostModelSwitch": [
-      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ],
     "Stop": [
-      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ],
     "PreToolUse": [
-      {"matcher": "Agent|Task",
-       "hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/router.py\"", "timeout": 10}]}
+      {
+        "matcher": "Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/router.js\"",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   }
 }

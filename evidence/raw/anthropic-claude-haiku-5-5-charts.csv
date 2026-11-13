@@ -1,0 +1,60 @@
+benchmark,model,effort,x,y,x_label,y_label
+OSWorld 2.1 (offline subset),**Haiku 5.5**,Low,0.0695,42.0,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Haiku 5.5**,Med,0.1257,53.3,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Haiku 5.5**,High,0.1827,61.3,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Haiku 5.5**,Xhigh,0.2792,67.6,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Haiku 5.5**,Max,0.6111,72.4,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Haiku 4.5**,Max,1.45,15.7,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Sonnet 5.5**,Low,0.6811,57.9,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Sonnet 5.5**,Med,0.9327,66.0,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Sonnet 5.5**,High,1.3842,73.2,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Sonnet 5.5**,Xhigh,2.223,81.1,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**Sonnet 5.5**,Max,5.7328,83.9,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**GPT-6 Luna**,Low,0.038,19.2,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**GPT-6 Luna**,Med,0.1261,37.5,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**GPT-6 Luna**,High,0.1435,42.3,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**GPT-6 Luna**,Xhigh,0.1672,44.8,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+OSWorld 2.1 (offline subset),**GPT-6 Luna**,Max,0.205,48.9,"Cost per attempt (USD, log scale)",Partial-credit score (%)
+GDPval-AA v2.1,**Haiku 5.5**,Low,0.01167,1125,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Haiku 5.5**,Med,0.03042,1277,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Haiku 5.5**,High,0.08938,1420,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Haiku 5.5**,Xhigh,0.26725,1513,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Haiku 5.5**,Max,0.86593,1620,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Haiku 4.5**,Max,0.24,735,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Sonnet 5.5**,Low,0.2235,1179,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Sonnet 5.5**,Med,0.2693,1324,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Sonnet 5.5**,High,0.618,1551,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Sonnet 5.5**,Xhigh,1.8834,1731,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**Sonnet 5.5**,Max,6.7776,1840,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**GPT-6 Luna**,Low,0.0038,1036,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**GPT-6 Luna**,Med,0.02,1262,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**GPT-6 Luna**,High,0.03,1344,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**GPT-6 Luna**,Xhigh,0.05,1364,"Cost per task (USD, log scale)","Elo, as reported"
+GDPval-AA v2.1,**GPT-6 Luna**,Max,0.09,1437,"Cost per task (USD, log scale)","Elo, as reported"
+Humanity’s Last Exam (no tools),**Haiku 5.5**,Low,0.00334,30.9,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Haiku 5.5**,Med,0.00693,35.5,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Haiku 5.5**,High,0.02043,39.7,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Haiku 5.5**,Xhigh,0.06452,44.1,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Haiku 5.5**,Max,0.21367,45.9,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Haiku 4.5**,Max,0.09348,10.2,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Sonnet 5.5**,Low,0.02879,41.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Sonnet 5.5**,Med,0.03326,43.2,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Sonnet 5.5**,High,0.07677,47.9,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Sonnet 5.5**,Xhigh,0.20138,53.0,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (no tools),**Sonnet 5.5**,Max,0.89469,56.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Haiku 5.5**,Low,0.424,12.7,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Haiku 5.5**,Med,0.6798,20.3,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Haiku 5.5**,High,1.0372,24.8,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Haiku 5.5**,Xhigh,1.7545,31.5,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Haiku 5.5**,Max,2.6433,39.2,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Haiku 4.5**,Max,0.7913,0.0,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.10 cache reads),Low,0.6205,20,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.10 cache reads),Med,0.6796,28.8,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.10 cache reads),High,1.462,43,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.10 cache reads),Xhigh,4.3352,61.5,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.10 cache reads),Max,10.4421,70.6,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.20 cache reads),Low,0.7903,20,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.20 cache reads),Med,0.8615,28.8,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.20 cache reads),High,1.9668,43,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.20 cache reads),Xhigh,5.8308,61.5,"Cost per attempt (USD, log scale)","Score (pass@1, %)"
+Terminal-Bench 4.0,**Sonnet 5.5** ($0.20 cache reads),Max,14.1511,70.6,"Cost per attempt (USD, log scale)","Score (pass@1, %)"

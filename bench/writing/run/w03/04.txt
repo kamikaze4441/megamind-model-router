@@ -1,0 +1,5 @@
+Imagine you own a box of open padlocks. You hand them out to anyone who asks, and you never worry about who gets one, because an open padlock cannot unlock anything. You keep the only key that opens them, and you never give that key to anybody.
+
+Now a stranger wants to send you a private note. They write it, put it in a box, snap one of your padlocks shut on it and post the box to you. On the way, plenty of people may handle it, but nobody can look inside, not even the sender, since snapping the padlock shut is easy and opening it needs the key. When the box arrives, you open it with your key and read the note.
+
+That is how online banking stays safe. Your bank gives out its padlock, called the public key, to anyone who visits its website. Your computer uses that padlock to lock up your details before they travel across the internet. Only the bank holds the matching key, called the private key, and it is never shared with anyone. So someone who copies the padlock still can't read a thing, and you never had to meet anyone from the bank first to set it up.

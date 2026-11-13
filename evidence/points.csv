@@ -1,0 +1,323 @@
+benchmark,model,effort,score,score_unit,cost_usd,cost_unit,grade,source,published,read
+AA-Briefcase v1.1,GPT-6 Sol,low,905,Elo,0.12,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,GPT-6 Sol,medium,1142,Elo,0.34,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,GPT-6 Sol,high,1289,Elo,0.63,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,GPT-6 Sol,xhigh,1364,Elo,1.19,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,GPT-6 Sol,max,1483,Elo,2.67,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Opus 5.5,low,1285,Elo,1.1528,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Opus 5.5,medium,1642,Elo,4.3982,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Opus 5.5,high,1705,Elo,6.2708,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Opus 5.5,xhigh,1780,Elo,12.2662,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Opus 5.5,max,1822,Elo,21.046,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5,low,923,Elo,0.8175,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5,medium,1056,Elo,1.7322,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5,high,1177,Elo,3.7647,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5,xhigh,1274,Elo,7.5572,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5,max,1359,Elo,14.4292,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5.5,low,1264,Elo,0.8685,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5.5,medium,1461,Elo,1.6431,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5.5,high,1634,Elo,3.9546,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5.5,xhigh,1746,Elo,9.6309,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AA-Briefcase v1.1,Sonnet 5.5,max,1811,Elo,29.194,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+AutomationBench,GPT-5.6 Sol,low,11.7,Pass rate (%),0.42,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-5.6 Sol,medium,19.6,Pass rate (%),0.57,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-5.6 Sol,high,24.8,Pass rate (%),0.64,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-5.6 Sol,xhigh,26.3,Pass rate (%),0.74,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-5.6 Sol,max,28.8,Pass rate (%),0.91,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-6 Astra,low,30.3,Pass rate (%),1.08,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-6 Astra,medium,34.1,Pass rate (%),1.28,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-6 Astra,high,37.1,Pass rate (%),1.45,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-6 Astra,xhigh,39,Pass rate (%),1.53,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,GPT-6 Astra,max,41.4,Pass rate (%),1.77,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5,low,20.4,Pass rate (%),0.75,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5,medium,23.9,Pass rate (%),0.89,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5,high,20.6,Pass rate (%),1.03,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5,xhigh,25.3,Pass rate (%),1.15,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5,max,26.9,Pass rate (%),1.27,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5.5,low,23.3,Pass rate (%),0.5,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5.5,medium,28.6,Pass rate (%),0.64,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5.5,high,32,Pass rate (%),0.7,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5.5,xhigh,34.4,Pass rate (%),0.86,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+AutomationBench,Opus 5.5,max,40,Pass rate (%),1.37,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.1,low,12.1,Score (0–100),2.953,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.1,medium,15.7,Score (0–100),5.703,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.1,high,25.8,Score (0–100),12.44,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.1,xhigh,40.5,Score (0–100),27.38,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.1,max,44.4,Score (0–100),34.69,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.2,low,26.9,Score (0–100),1.888,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.2,medium,32.4,Score (0–100),2.66,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.2,high,61,Score (0–100),9.993,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.2,xhigh,74.1,Score (0–100),23.23,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Fable 5.2,max,83.5,Score (0–100),50.77,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Opus 5.5,low,6.3,Score (0–100),0.0312,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Opus 5.5,medium,19.1,Score (0–100),1.114,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Opus 5.5,high,29.7,Score (0–100),2.571,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Opus 5.5,xhigh,54.5,Score (0–100),8.906,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+BenchCAD 2.1 (with tools),Opus 5.5,max,65.3,Score (0–100),19.86,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.1,low,36.6,Score (%),0.0256,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.1,medium,42.2,Score (%),0.05,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.1,high,46,Score (%),0.0832,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.1,xhigh,47,Score (%),0.3818,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.1,max,44.8,Score (%),0.8662,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.2,low,64.2,Score (%),0.0311,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.2,medium,66.4,Score (%),0.0349,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.2,high,69.8,Score (%),0.0675,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.2,xhigh,71.4,Score (%),0.1507,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Fable 5.2,max,73.4,Score (%),0.7493,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Opus 5.5,low,57,Score (%),0.0211,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Opus 5.5,medium,59,Score (%),0.0251,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Opus 5.5,high,59.2,Score (%),0.0315,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Opus 5.5,xhigh,62.4,Score (%),0.0818,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Chartography (no tools),Opus 5.5,max,64.4,Score (%),0.4916,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CursorBench 4.0,Fable 5.1,low,45.1,Score (%),5.44,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Fable 5.1,medium,46.8,Score (%),7.05,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Fable 5.1,high,49.2,Score (%),9.08,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Fable 5.1,xhigh,51.6,Score (%),13.01,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Fable 5.1,max,51.8,Score (%),17.28,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,GPT-5.6 Sol,low,24.6,Score (%),0.87,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,GPT-5.6 Sol,medium,31.1,Score (%),1.77,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,GPT-5.6 Sol,high,35.7,Score (%),2.85,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,GPT-5.6 Sol,xhigh,37.7,Score (%),4.4,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,GPT-5.6 Sol,max,41.7,Score (%),8.23,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Opus 5,low,40.7,Score (%),4.87,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Opus 5,medium,43.3,Score (%),6.94,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Opus 5,high,44.7,Score (%),9,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Opus 5,xhigh,46.1,Score (%),11.43,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Opus 5,max,46.6,Score (%),11.95,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+CursorBench 4.0,Opus 5.5,low,43.7,Score (%),1.17,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Opus 5.5,medium,52.5,Score (%),2.91,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Opus 5.5,high,56,Score (%),3.97,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Opus 5.5,xhigh,56,Score (%),6.98,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Opus 5.5,max,57.8,Score (%),13.43,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5,low,24.1,Score (%),1.39,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5,medium,28,Score (%),2.31,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5,high,30.8,Score (%),3.48,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5,xhigh,32,Score (%),4.55,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5,max,34.1,Score (%),7.17,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5.5,low,35.8,Score (%),0.5,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5.5,medium,39.2,Score (%),0.7,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5.5,high,47.8,Score (%),1.67,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5.5,xhigh,53.1,Score (%),3.88,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CursorBench 4.0,Sonnet 5.5,max,55.5,Score (%),9.67,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+CVE Rediscovery,Mythos 5.1,low,65.9,Advisories found (%),0.5929,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.1,medium,69.8,Advisories found (%),0.8899,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.1,high,73.8,Advisories found (%),1.389,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.1,xhigh,77.8,Advisories found (%),2.815,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.1,max,78.3,Advisories found (%),4.138,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.2,low,72.4,Advisories found (%),0.3383,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.2,medium,73.3,Advisories found (%),0.402,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.2,high,83.2,Advisories found (%),1.013,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.2,xhigh,88.1,Advisories found (%),2.399,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Mythos 5.2,max,89.6,Advisories found (%),9.129,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Opus 5.5,low,59.4,Advisories found (%),0.1054,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Opus 5.5,medium,66.1,Advisories found (%),0.2817,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Opus 5.5,high,70,Advisories found (%),0.434,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Opus 5.5,xhigh,76.4,Advisories found (%),1.051,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+CVE Rediscovery,Opus 5.5,max,81.3,Advisories found (%),2.978,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.1,low,20.59,Score (%),3.007,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.1,medium,21.47,Score (%),3.891,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.1,high,25.67,Score (%),5.386,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.1,xhigh,32.44,Score (%),8.68,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.1,max,31.67,Score (%),11.46,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.2,low,34.2,Score (%),2.098,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.2,medium,37.59,Score (%),2.482,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.2,high,45.29,Score (%),6.721,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.2,xhigh,49.11,Score (%),14.19,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Fable 5.2,max,45.65,Score (%),44.7,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Gemini 4 Carbon,medium,41.06,Score (%),5.16,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Gemini 4 Carbon,low,32.4,Score (%),5.49,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Gemini 4 Carbon,high,38.42,Score (%),5.833,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,GPT-6 Astra,low,31.11,Score (%),2.437,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,GPT-6 Astra,medium,36.75,Score (%),3.493,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,GPT-6 Astra,high,38.31,Score (%),4.277,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,GPT-6 Astra,xhigh,41.41,Score (%),4.539,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,GPT-6 Astra,max,42.77,Score (%),6.676,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Opus 5.5,low,14.72,Score (%),0.746,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Opus 5.5,medium,30.1,Score (%),1.699,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Opus 5.5,high,34.53,Score (%),2.423,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Opus 5.5,xhigh,43.38,Score (%),5.184,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+FrontierCode 2.0,Opus 5.5,max,45.45,Score (%),12.82,Cost per task,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+"FrontierCode v1.1, main set",Fable 5.1,low,52.8,Score (%),2.4665,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Fable 5.1,medium,50.91,Score (%),3.2845,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Fable 5.1,high,50.34,Score (%),5.2741,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Fable 5.1,xhigh,48.73,Score (%),9.2739,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Fable 5.1,max,50.28,Score (%),12.8218,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-5.6 Sol,low,35.44,Score (%),1.7476,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-5.6 Sol,medium,39.93,Score (%),2.4986,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-5.6 Sol,high,45.06,Score (%),3.2488,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-5.6 Sol,xhigh,46.84,Score (%),3.8806,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-5.6 Sol,max,47.49,Score (%),4.8477,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Astra,low,45.27,Score (%),1.5927,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Astra,medium,48.83,Score (%),2.2845,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Astra,high,50.94,Score (%),2.847,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Astra,xhigh,50.62,Score (%),3.0961,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Astra,max,53.26,Score (%),4.3632,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Sol,low,37.3,Score (%),0.4324,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Sol,medium,45.9,Score (%),0.7659,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Sol,high,47.7,Score (%),1.0393,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Sol,xhigh,48.4,Score (%),1.325,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",GPT-6 Sol,max,49.3,Score (%),2.0651,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Opus 5,low,41.95,Score (%),2.6415,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Opus 5,medium,53.38,Score (%),4.6066,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Opus 5,high,47.99,Score (%),7.615,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Opus 5,xhigh,43.65,Score (%),8.9885,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Opus 5,max,48.04,Score (%),12.2814,Cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+"FrontierCode v1.1, main set",Opus 5.5,low,47.3,Score (%),0.4039,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Opus 5.5,medium,54.6,Score (%),0.8021,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Opus 5.5,high,54,Score (%),1.0901,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Opus 5.5,xhigh,51.4,Score (%),2.25,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Opus 5.5,max,54.4,Score (%),6.1918,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5,low,28.7,Score (%),2.39,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5,medium,35.2,Score (%),3.81,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5,high,39.4,Score (%),6.1,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5,xhigh,42.7,Score (%),10.07,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5,max,42.4,Score (%),17.12,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5.5,low,29.3,Score (%),0.194,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5.5,medium,36.5,Score (%),0.2364,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5.5,high,49.4,Score (%),0.4175,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5.5,xhigh,52.1,Score (%),1.5881,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+"FrontierCode v1.1, main set",Sonnet 5.5,max,46.2,Score (%),20.7818,Cost per task,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+GDPval-AA v2.1,Fable 5.1,low,1450,Elo,1.4147,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Fable 5.1,medium,1536,Elo,2.1682,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Fable 5.1,high,1617,Elo,3.4287,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Fable 5.1,xhigh,1721,Elo,7.0862,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Fable 5.1,max,1735,Elo,9.5863,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-5.6 Sol,low,1289,Elo,0.2677,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-5.6 Sol,medium,1403,Elo,0.5954,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-5.6 Sol,high,1480,Elo,1.106,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-5.6 Sol,xhigh,1548,Elo,1.7042,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-5.6 Sol,max,1588,Elo,2.8099,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Astra,low,1366,Elo,0.8545,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Astra,medium,1468,Elo,1.8223,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Astra,high,1485,Elo,2.4321,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Astra,xhigh,1516,Elo,3.038,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Astra,max,1542,Elo,4.5293,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,GPT-6 Luna,low,1036,"Elo, as reported",0.0038,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,GPT-6 Luna,medium,1262,"Elo, as reported",0.02,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,GPT-6 Luna,high,1344,"Elo, as reported",0.03,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,GPT-6 Luna,xhigh,1364,"Elo, as reported",0.05,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,GPT-6 Luna,max,1437,"Elo, as reported",0.09,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 4.5,max,735,"Elo, as reported",0.24,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 5.5,low,1125,"Elo, as reported",0.01167,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 5.5,medium,1277,"Elo, as reported",0.03042,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 5.5,high,1420,"Elo, as reported",0.08938,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 5.5,xhigh,1513,"Elo, as reported",0.26725,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Haiku 5.5,max,1620,"Elo, as reported",0.86593,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Opus 5,low,1294,Elo,0.5817,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5,medium,1476,Elo,1.3639,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5,high,1581,Elo,3.0266,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5,xhigh,1676,Elo,4.962,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5,max,1708,Elo,6.7647,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5.5,low,1224,Elo,0.2137,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5.5,medium,1576,Elo,0.8563,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5.5,high,1692,Elo,1.5424,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5.5,xhigh,1820,Elo,4.2104,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Opus 5.5,max,1846,Elo,8.9154,Estimated cost per task,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+GDPval-AA v2.1,Sonnet 5.5,low,1179,"Elo, as reported",0.2235,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Sonnet 5.5,medium,1324,"Elo, as reported",0.2693,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Sonnet 5.5,high,1551,"Elo, as reported",0.618,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Sonnet 5.5,xhigh,1731,"Elo, as reported",1.8834,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+GDPval-AA v2.1,Sonnet 5.5,max,1840,"Elo, as reported",6.7776,Cost per task,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 4.5,max,10.2,Score (%),0.09348,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 5.5,low,30.9,Score (%),0.00334,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 5.5,medium,35.5,Score (%),0.00693,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 5.5,high,39.7,Score (%),0.02043,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 5.5,xhigh,44.1,Score (%),0.06452,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Haiku 5.5,max,45.9,Score (%),0.21367,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Sonnet 5.5,low,41.4,Score (%),0.02879,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Sonnet 5.5,medium,43.2,Score (%),0.03326,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Sonnet 5.5,high,47.9,Score (%),0.07677,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Sonnet 5.5,xhigh,53,Score (%),0.20138,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (no tools),Sonnet 5.5,max,56.9,Score (%),0.89469,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.1,low,60.2,Score (%),0.5862,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.1,medium,62.4,Score (%),0.8531,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.1,high,63.1,Score (%),1.37,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.1,xhigh,65.2,Score (%),2.7,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.1,max,65.6,Score (%),3.77,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.2,low,68.4,Score (%),0.1853,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.2,medium,68.6,Score (%),0.208,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.2,high,71.5,Score (%),0.6268,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.2,xhigh,73.4,Score (%),1.48,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Fable 5.2,max,74.2,Score (%),4.51,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Opus 5.5,low,57.4,Score (%),0.0751,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Opus 5.5,medium,63,Score (%),0.1718,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Opus 5.5,high,63.9,Score (%),0.2947,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Opus 5.5,xhigh,66.4,Score (%),0.6888,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+Humanity’s Last Exam (with tools),Opus 5.5,max,67.7,Score (%),2.18,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+OSWorld 2.1 (offline subset),GPT-6 Luna,low,19.2,Partial-credit score (%),0.038,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),GPT-6 Luna,medium,37.5,Partial-credit score (%),0.1261,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),GPT-6 Luna,high,42.3,Partial-credit score (%),0.1435,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),GPT-6 Luna,xhigh,44.8,Partial-credit score (%),0.1672,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),GPT-6 Luna,max,48.9,Partial-credit score (%),0.205,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 4.5,max,15.7,Partial-credit score (%),1.45,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 5.5,low,42,Partial-credit score (%),0.0695,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 5.5,medium,53.3,Partial-credit score (%),0.1257,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 5.5,high,61.3,Partial-credit score (%),0.1827,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 5.5,xhigh,67.6,Partial-credit score (%),0.2792,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Haiku 5.5,max,72.4,Partial-credit score (%),0.6111,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Sonnet 5.5,low,57.9,Partial-credit score (%),0.6811,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Sonnet 5.5,medium,66,Partial-credit score (%),0.9327,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Sonnet 5.5,high,73.2,Partial-credit score (%),1.3842,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Sonnet 5.5,xhigh,81.1,Partial-credit score (%),2.223,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+OSWorld 2.1 (offline subset),Sonnet 5.5,max,83.9,Partial-credit score (%),5.7328,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Fable 5.1,low,40.2,Score (%),5.7,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Fable 5.1,medium,43.4,Score (%),7.8,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Fable 5.1,high,49.4,Score (%),10.5,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Fable 5.1,xhigh,51.3,Score (%),15.8,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Fable 5.1,max,55.8,Score (%),19.5,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,GPT-5.6 Sol,low,7.9,Score (%),1.4609,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,GPT-5.6 Sol,medium,20.9,Score (%),2.6906,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,GPT-5.6 Sol,high,26.1,Score (%),4.1225,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,GPT-5.6 Sol,xhigh,28.5,Score (%),5.3852,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,GPT-5.6 Sol,max,37.3,Score (%),7.8945,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,GPT-6 Astra,low,49.7,Score (%),4.95,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,GPT-6 Astra,medium,53.9,Score (%),6.15,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,GPT-6 Astra,high,57.9,Score (%),7.21,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,GPT-6 Astra,xhigh,57.6,Score (%),7.48,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,GPT-6 Astra,max,56.7,Score (%),10.35,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Haiku 4.5,max,0,"Score (pass@1, %)",0.7913,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Haiku 5.5,low,12.7,"Score (pass@1, %)",0.424,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Haiku 5.5,medium,20.3,"Score (pass@1, %)",0.6798,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Haiku 5.5,high,24.8,"Score (pass@1, %)",1.0372,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Haiku 5.5,xhigh,31.5,"Score (pass@1, %)",1.7545,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Haiku 5.5,max,39.2,"Score (pass@1, %)",2.6433,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Opus 5,low,28.5,Score (%),4.25,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Opus 5,medium,41.2,Score (%),7,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Opus 5,high,47,Score (%),10.64,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Opus 5,xhigh,50.6,Score (%),13.48,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Opus 5,max,52.3,Score (%),15.83,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+Terminal-Bench 4.0,Opus 5.5,low,38.5,Score (%),1.2911,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Opus 5.5,medium,57.6,Score (%),2.9365,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Opus 5.5,high,64.2,Score (%),3.8843,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Opus 5.5,xhigh,66.4,Score (%),7.3534,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Opus 5.5,max,64.8,Score (%),11.2418,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5,low,3.2,Score (%),3.7767,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5,medium,4.4,Score (%),4.829,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5,high,4.5,Score (%),8.1997,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5,xhigh,7,Score (%),9.9546,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5,max,10.3,Score (%),11.6228,Cost per attempt,vendor,https://www.anthropic.com/claude-sonnet-5-5,2026-09-28,2026-11-11
+Terminal-Bench 4.0,Sonnet 5.5,low,20,"Score (pass@1, %)",0.6205,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Sonnet 5.5,medium,28.8,"Score (pass@1, %)",0.6796,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Sonnet 5.5,high,43,"Score (pass@1, %)",1.462,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Sonnet 5.5,xhigh,61.5,"Score (pass@1, %)",4.3352,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+Terminal-Bench 4.0,Sonnet 5.5,max,70.6,"Score (pass@1, %)",10.4421,Cost per attempt,vendor,https://www.anthropic.com/claude-haiku-5-5,2026-10-07,2026-11-11
+WANDR,Fable 5.1,low,63.3,Score (%),24.41,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.1,medium,64.5,Score (%),28.78,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.1,high,66.7,Score (%),37.6,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.1,xhigh,67.7,Score (%),44.5,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.1,max,68.7,Score (%),51.1,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.2,low,71.4,Score (%),12.66,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.2,medium,73.6,Score (%),15.71,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.2,high,79.3,Score (%),29.2,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.2,xhigh,80.6,Score (%),39.84,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Fable 5.2,max,82.1,Score (%),53.11,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Opus 5,low,50.5,Score (%),10.65,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+WANDR,Opus 5,medium,58.1,Score (%),23.97,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+WANDR,Opus 5,high,64.6,Score (%),43.49,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+WANDR,Opus 5,xhigh,67,Score (%),53.84,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+WANDR,Opus 5,max,67.2,Score (%),61.62,Cost per attempt,vendor,https://www.anthropic.com/claude-opus-5-5,,2026-11-11
+WANDR,Opus 5.5,low,31.2,Score (%),1.25,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Opus 5.5,medium,62.8,Score (%),11.4,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Opus 5.5,high,67.3,Score (%),17.31,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Opus 5.5,xhigh,71.3,Score (%),29.25,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11
+WANDR,Opus 5.5,max,72.3,Score (%),38.68,Cost per attempt,vendor,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-09,2026-11-11

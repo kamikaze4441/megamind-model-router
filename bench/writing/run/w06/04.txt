@@ -1,0 +1,7 @@
+Imagine you want people you have never met to be able to send you private letters. You make a thousand identical padlocks, all of them open, and leave them in a bowl on the village green with a sign saying: take one. Anyone can pick one up. That is your public key, and you can give it to anyone, even a stranger or a thief, because an open padlock lets nobody into anything.
+
+Someone who wants to write to you puts their letter in a box, snaps your padlock shut on it and posts it to you. Snapping it shut is easy. Opening it is not. Once the padlock is closed, nobody without the key can get it open, not the sender, not anyone who steals the box on the way.
+
+Only you can open it, because you kept the one key that fits your padlocks. That is your private key. You never lend it, copy it or send it to anyone.
+
+When you use online banking, your computer and the bank's do this in a flash. Your computer takes the bank's open padlock, locks your details inside and sends them on. Only the bank holds the key. Though anyone can see the box travelling, only the bank can read what is in it.

@@ -1,0 +1,17 @@
+Dear customer,
+
+On Tuesday 3 November, Tallybook was unavailable from 09:12 to 11:47 UTC, a total of 2 hours 35 minutes. We are sorry for the disruption, and we want to explain what happened.
+
+A security certificate on our main database had expired. The renewal reminder went to a mailbox that nobody was reading. No data was lost. Invoices that were scheduled to go out during the outage were sent at 12:05 UTC the same day.
+
+We have changed two things. Certificates now renew automatically, and expiry alerts go to the phone of the on-call engineer.
+
+Every affected account will receive a credit of 7 days on its subscription. It will be applied automatically by 10 November, so you do not need to do anything.
+
+You can find the current status and incident history at status.tallybook.example.
+
+Thank you for your patience, and we are sorry again for the trouble.
+
+Mara Okafor
+Head of Support
+Tallybook

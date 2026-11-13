@@ -1,0 +1,7 @@
+Think of a padlock. Imagine you make thousands of identical open padlocks and leave them in a bowl at the post office, free for anybody to take. You keep the only key to all of them at home.
+
+Now a stranger wants to send you a secret. They take one of your open padlocks, put their message in a box, and snap the padlock shut. Once it clicks, nobody can open the box, not even the person who locked it. It travels through the post, past all sorts of curious hands, and arrives at your door. You open it with your key.
+
+That is how online banking works. The padlock is your bank's public key. The bank can give it to anyone, and it does, to every visitor to its website. Having a padlock tells a thief nothing about how to open one, so there is no harm in handing them out. The key that opens it is the private key. The bank never shares it with anyone and keeps it locked away on its own computers.
+
+So when you type your password, your computer locks it with the bank's padlock first. Only the bank can unlock it. You never had to meet anyone or agree on a secret beforehand.

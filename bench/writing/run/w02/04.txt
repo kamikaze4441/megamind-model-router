@@ -1,0 +1,7 @@
+Imagine you want people everywhere to be able to send you private letters, even people you have never met. You cannot meet each of them to hand over a secret code. So you do something clever. You make hundreds of open padlocks and leave them in a public place, perhaps on a table in the town square. Anyone can take one. Each padlock is yours, and only you own the one key that opens it.
+
+Now a stranger wants to write to you. They put their message in a box, take one of your open padlocks, and snap it shut. Once it clicks closed, nobody can open that box, not even the person who locked it. They post it to you. When it arrives, you open it with your key and read the message.
+
+That is how public-key encryption works. The open padlock is the public key: you can give it to anyone, and it does no harm if a thief gets one, because a padlock can only lock. The key that opens it is the private key. You never share it and it never leaves your hands.
+
+When you use online banking, your computer and the bank do this in seconds, so what you send stays private all the way.

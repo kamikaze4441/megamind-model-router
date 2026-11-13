@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "note": "Routing table for model-router. Ranks: haiku 1, sonnet 2, opus 3, fable 4. Efforts: low 1, medium 2, high 3, xhigh 4, max 5. Edit freely; the hooks re-read this file on every prompt.",
+  "profile": "max",
+  "models": {
+    "haiku": {"label": "Haiku 5.5", "rank": 1, "input_usd_per_mtok": 0.10},
+    "sonnet": {"label": "Sonnet 5.5", "rank": 2, "input_usd_per_mtok": 2.00},
+    "opus": {"label": "Opus 5.5", "rank": 3, "input_usd_per_mtok": 4.00},
+    "fable": {"label": "Fable 5.1", "rank": 4, "input_usd_per_mtok": 10.00}
+  },
+  "efforts": {"low": 1, "medium": 2, "high": 3, "xhigh": 4, "max": 5},
+  "classes": {
+    "quick":    {"max": ["haiku", "low"],    "pro": ["haiku", "low"],    "why": "short question with a known answer", "delegate": null},
+    "search":   {"max": ["haiku", "low"],    "pro": ["haiku", "low"],    "why": "finding and reading, little judgment", "delegate": "scout"},
+    "write":    {"max": ["sonnet", "medium"], "pro": ["sonnet", "medium"], "why": "drafting prose; small slips are cheap to fix", "delegate": null},
+    "edit":     {"max": ["sonnet", "medium"], "pro": ["sonnet", "medium"], "why": "a scoped change with a clear target", "delegate": "builder"},
+    "debug":    {"max": ["opus", "high"],     "pro": ["sonnet", "high"],   "why": "unknown cause; cheap models guess", "delegate": "runner"},
+    "risky":    {"max": ["opus", "high"],     "pro": ["sonnet", "high"],   "why": "money, security, data or uptime at stake", "delegate": "reviewer"},
+    "review":   {"max": ["opus", "high"],     "pro": ["sonnet", "high"],   "why": "cheap models flag correct work as wrong", "delegate": null},
+    "research": {"max": ["opus", "high"],     "pro": ["sonnet", "high"],   "why": "facts from several sources; cheap models get more wrong", "delegate": "scout"},
+    "plan":     {"max": ["fable", "high"],    "pro": ["opus", "high"],     "why": "design with long-term consequences", "delegate": null}
+  },
+  "unsure": {"max": ["sonnet", "medium"], "pro": ["sonnet", "medium"], "why": "when unsure, the middle tier"},
+  "agents": {
+    "scout": "model-router:scout (Haiku 5.5 · low): find, read and list; reports paths, quotes and line numbers",
+    "runner": "model-router:runner (Haiku 5.5 · low): runs tests and commands, reports the exact command and its output",
+    "builder": "model-router:builder (Sonnet 5.5 · medium): one scoped edit from a brief, then runs the brief's check",
+    "reviewer": "model-router:reviewer (Opus 5.5 · high): risky diffs, and any step that failed twice"
+  },
+  "orchestrator": {"models": ["opus", "fable"], "min_effort": "high", "keyword_on": "orchestrate", "keyword_off": "solo"}
+}

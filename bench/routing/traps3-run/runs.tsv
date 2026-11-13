@@ -1,0 +1,12 @@
+01	haiku-low	old	1	haiku-low-old_1.json
+06	haiku-low	old	2	haiku-low-old_2.json
+09	haiku-low	old	3	haiku-low-old_3.json
+02	haiku-low	new	1	haiku-low-new_1.json
+05	haiku-low	new	2	haiku-low-new_2.json
+10	haiku-low	new	3	haiku-low-new_3.json
+04	sonnet-medium	old	1	sonnet-medium-old_1.json
+07	sonnet-medium	old	2	sonnet-medium-old_2.json
+12	sonnet-medium	old	3	sonnet-medium-old_3.json
+03	sonnet-medium	new	1	sonnet-medium-new_1.json
+08	sonnet-medium	new	2	sonnet-medium-new_2.json
+11	sonnet-medium	new	3	sonnet-medium-new_3.json

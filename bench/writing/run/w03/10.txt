@@ -1,0 +1,9 @@
+Your phone battery works by moving tiny charged particles back and forth inside it, every time you charge it and use it. Over time, small amounts of the battery's inner material change or get stuck, so there is less room to store charge. A new battery might last all day, but after a few years the same battery simply holds less, which is why your phone now dies by 4 p.m.
+
+Heat makes this wear happen faster. A phone left in a hot car, charged under a pillow or used for games while plugged in ages its battery much more quickly than one kept cool. Keeping the battery at very high or very low charge for long stretches also adds stress.
+
+You can't stop the aging, but you can slow it:
+
+1. Keep your phone cool: take it out of a thick case while charging and never leave it in direct sun or a hot car.
+2. Avoid draining it to zero or sitting at 100% for hours; charging between roughly 20% and 80% is gentler.
+3. Charge overnight with a slower charger when you can, and use fast charging only when you need it.

@@ -1,0 +1,376 @@
+{
+ "w01": {
+  "t01": {
+   "words": 139,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 147,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 217,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 211,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 191,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 120,
+   "ok": true,
+   "fails": []
+  },
+  "t07": {
+   "words": 155,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 147,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 190,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 193,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 185,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 134,
+   "ok": true,
+   "fails": []
+  }
+ },
+ "w02": {
+  "t01": {
+   "words": 136,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 130,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 223,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 211,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 187,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 125,
+   "ok": true,
+   "fails": []
+  },
+  "t07": {
+   "words": 145,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 138,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 186,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 189,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 167,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 122,
+   "ok": true,
+   "fails": []
+  }
+ },
+ "w03": {
+  "t01": {
+   "words": 142,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 132,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 223,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 207,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 183,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 117,
+   "ok": true,
+   "fails": []
+  },
+  "t07": {
+   "words": 145,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 141,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 189,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 195,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 186,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 124,
+   "ok": true,
+   "fails": []
+  }
+ },
+ "w04": {
+  "t01": {
+   "words": 131,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 130,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 216,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 197,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 179,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 122,
+   "ok": false,
+   "fails": [
+    "missing: third floor"
+   ]
+  },
+  "t07": {
+   "words": 142,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 140,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 185,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 190,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 147,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 126,
+   "ok": true,
+   "fails": []
+  }
+ },
+ "w05": {
+  "t01": {
+   "words": 138,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 129,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 224,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 210,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 180,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 107,
+   "ok": true,
+   "fails": []
+  },
+  "t07": {
+   "words": 140,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 136,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 183,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 159,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 164,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 101,
+   "ok": true,
+   "fails": []
+  }
+ },
+ "w06": {
+  "t01": {
+   "words": 142,
+   "ok": true,
+   "fails": []
+  },
+  "t02": {
+   "words": 134,
+   "ok": true,
+   "fails": []
+  },
+  "t03": {
+   "words": 219,
+   "ok": true,
+   "fails": []
+  },
+  "t04": {
+   "words": 214,
+   "ok": true,
+   "fails": []
+  },
+  "t05": {
+   "words": 186,
+   "ok": true,
+   "fails": []
+  },
+  "t06": {
+   "words": 123,
+   "ok": true,
+   "fails": []
+  },
+  "t07": {
+   "words": 148,
+   "ok": true,
+   "fails": []
+  },
+  "t08": {
+   "words": 140,
+   "ok": true,
+   "fails": []
+  },
+  "t09": {
+   "words": 184,
+   "ok": true,
+   "fails": []
+  },
+  "t10": {
+   "words": 194,
+   "ok": true,
+   "fails": []
+  },
+  "t11": {
+   "words": 149,
+   "ok": true,
+   "fails": []
+  },
+  "t12": {
+   "words": 124,
+   "ok": true,
+   "fails": []
+  }
+ }
+}

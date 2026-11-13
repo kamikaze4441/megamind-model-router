@@ -1,0 +1,238 @@
+{
+  "note": "Hand-written inputs to tools/build.js. The ladders of classes that list benchmarks are computed from points.csv by the rule below; everything else in this file is judgment and is marked so in the outputs. Change this file or the evidence, then run: node tools/build.js",
+  "plugin_version": "0.3.0",
+  "default_profile": "max",
+  "models": {
+    "haiku": {
+      "label": "Haiku 5.5",
+      "rank": 1,
+      "input_usd_per_mtok": 0.1
+    },
+    "sonnet": {
+      "label": "Sonnet 5.5",
+      "rank": 2,
+      "input_usd_per_mtok": 2
+    },
+    "opus": {
+      "label": "Opus 5.5",
+      "rank": 3,
+      "input_usd_per_mtok": 4
+    },
+    "fable": {
+      "label": "Fable 5.2",
+      "rank": 4,
+      "input_usd_per_mtok": 8
+    }
+  },
+  "efforts": {
+    "low": 1,
+    "medium": 2,
+    "high": 3,
+    "xhigh": 4,
+    "max": 5
+  },
+  "profiles": {
+    "max": {
+      "models": ["haiku", "sonnet", "opus", "fable"],
+      "fable_weight": 1,
+      "about": "Max plan; Fable at its published cost"
+    },
+    "pro": {
+      "models": ["haiku", "sonnet", "opus"],
+      "fable_weight": 1,
+      "about": "Pro plan; the same ladders with Fable left out"
+    },
+    "lean": {
+      "models": ["haiku", "sonnet", "opus", "fable"],
+      "fable_weight": 2,
+      "about": "Max plan when the Fable allowance runs short; Fable must win at twice its cost"
+    }
+  },
+  "rule": {
+    "about": "Per benchmark: keep the pairs no other pair beats on both score and cost (Fable cost times the profile's weight). The first benchmark listed for a class leads; a pair another listed benchmark shows as beaten is removed. Drop pairs below the floor. Pairs within near_tie of each other in cost count as one step (the higher score stays). Walking up from the cheapest, a pair stays only if it gains at least the tolerance over the last one kept.",
+    "tolerance": {
+      "points": 3,
+      "elo": 60
+    },
+    "near_tie": 0.1,
+    "exclude_efforts": ["max"],
+    "exclude_efforts_why": "EVIDENCE.md finding 1: for Opus and Fable on coding, max is beaten or within 2 points of xhigh at 2.5 to 3 times the cost. It stays available on request.",
+    "start_pair_about": "start is a position on the ladder; start_pair names the pair expected there, and the build stops when new evidence moves another pair into that position.",
+    "start_by_test_about": "start_by_test puts a pair on a computed ladder by hand, in place of the step named in replaces, when an own test contradicts the benchmark at that step; the steps around it stay computed, and the build stops when the replaced step leaves the ladder."
+  },
+  "classes": {
+    "quick": {
+      "task": "Quick question with a known answer",
+      "help": "short question with a known answer",
+      "why": "short question with a known answer",
+      "delegate": null,
+      "ladder": [["haiku", "low"], ["haiku", "high"], ["sonnet", "high"]],
+      "start": 0,
+      "checkable": false
+    },
+    "search": {
+      "task": "Finding, reading or listing things in files, logs, pages, an inbox",
+      "help": "find, read or list things in files, logs, pages or an inbox",
+      "why": "finding and reading, little judgment",
+      "delegate": "scout",
+      "ladder": [["haiku", "low"], ["haiku", "high"], ["sonnet", "high"]],
+      "start": 0,
+      "checkable": false
+    },
+    "write": {
+      "task": "Writing: emails, posts, summaries, translations, explanations, day-to-day plans such as a week or a schedule",
+      "help": "emails, posts, summaries, translations, explanations, day-to-day plans such as a week or a schedule",
+      "why": "drafting prose; small slips are cheap to fix",
+      "delegate": null,
+      "benchmarks": ["GDPval-AA v2.1", "AA-Briefcase v1.1"],
+      "floor": ["haiku", "high"],
+      "floor_why": "EVIDENCE.md finding 6: Haiku at high beats Sonnet at low and medium on desk work",
+      "start": 1,
+      "checkable": false,
+      "start_by_test": {
+        "pair": ["sonnet", "medium"],
+        "replaces": ["haiku", "xhigh"],
+        "why": "own writing test, 2026-11-12 (bench/writing): blind graders preferred Sonnet at medium to Haiku at xhigh in 30 and 27 of 36 pairs (threshold 24), and Sonnet at high was not preferred to Sonnet at medium (11 and 12 of 24). All graders were Opus; the benchmark above ranks the two the other way at the same cost. Set on the owner's word; the owner's own blind ranking was not done"
+      },
+      "start_pair": {
+        "max": ["sonnet", "medium"],
+        "pro": ["sonnet", "medium"],
+        "lean": ["sonnet", "medium"]
+      }
+    },
+    "edit": {
+      "task": "A scoped edit: small feature, fix, script, config change",
+      "help": "a scoped change: small feature, fix, script, config",
+      "why": "a scoped change with a clear target",
+      "delegate": "builder",
+      "benchmarks": ["FrontierCode v1.1, main set", "CursorBench 4.0"],
+      "floor": ["sonnet", "medium"],
+      "floor_why": "judgment: the bench in this repo saw no failures on small edits at Sonnet medium",
+      "start": 1,
+      "checkable": true,
+      "start_pair": {
+        "max": ["sonnet", "high"],
+        "pro": ["sonnet", "high"],
+        "lean": ["sonnet", "high"]
+      }
+    },
+    "debug": {
+      "task": "Debugging an unknown cause; multi-step agent coding",
+      "help": "something broken, cause unknown",
+      "why": "unknown cause; cheap models guess",
+      "delegate": "runner",
+      "benchmarks": ["FrontierCode 2.0", "Terminal-Bench 4.0"],
+      "floor": ["opus", "medium"],
+      "floor_why": "EVIDENCE.md finding 4: Opus at low is poor on agent work and medium is the knee",
+      "start": 1,
+      "checkable": true,
+      "start_pair": {
+        "max": ["fable", "low"],
+        "pro": ["opus", "high"],
+        "lean": ["opus", "high"]
+      }
+    },
+    "risky": {
+      "task": "Risky: money, security, passwords, deleting or migrating data, live servers, legal or medical decisions; any change, even a refactor, to code that takes payments, checks logins or holds secrets",
+      "help": "money, security, credentials, deleting or migrating data, live servers, legal or medical decisions; any change, even a refactor, to code that takes payments, checks logins or holds secrets",
+      "why": "money, security, data or uptime at stake",
+      "delegate": "reviewer",
+      "ladder": [["opus", "high"]],
+      "start": 0,
+      "checkable": false,
+      "plan_first": true,
+      "no_step_down": true,
+      "ladder_why": "judgment: no usable benchmark. Security stays on Opus: the cyber charts are Mythos 5.2, and Fable 5.2 blocks most security work",
+      "note": "security work stays on Opus (Fable 5.2 blocks most of it)"
+    },
+    "review": {
+      "task": "Reviewing or fact-checking work",
+      "help": "check or fact-check existing work",
+      "why": "cheap models flag correct work as wrong",
+      "delegate": null,
+      "ladder": [["opus", "high"], ["fable", "medium"]],
+      "start": 0,
+      "checkable": false,
+      "not_below_author": true
+    },
+    "research": {
+      "task": "Research across sources, buying decisions",
+      "help": "compare sources, buying decisions, current state of things",
+      "why": "facts from several sources; cheap models get more wrong",
+      "delegate": "scout",
+      "benchmarks": ["WANDR", "Humanity’s Last Exam (with tools)"],
+      "floor": ["opus", "medium"],
+      "floor_why": "EVIDENCE.md finding 4: Opus at low scores half of medium on WANDR",
+      "top": ["fable", "xhigh"],
+      "top_why": "The owner's choice (2026-11-12); the rule drops it, 1.3 points over Fable high on WANDR",
+      "start": 1,
+      "checkable": true,
+      "start_pair": {
+        "max": ["fable", "low"],
+        "pro": ["opus", "high"],
+        "lean": ["opus", "high"]
+      }
+    },
+    "plan": {
+      "task": "Architecture and system design; long-term plans for a system, product or project",
+      "help": "architecture, system design, long-term choices for a system, product or project",
+      "why": "design with long-term consequences",
+      "delegate": null,
+      "ladder": [["opus", "high"], ["fable", "medium"], ["fable", "high"], ["fable", "xhigh"]],
+      "ladder_why": "judgment: no benchmark; Fable xhigh on top is the owner's choice (2026-11-12)",
+      "start": 1,
+      "checkable": false
+    }
+  },
+  "rules": {
+    "about": "Two rules on top of the table (judgment, from the trap tests of 2026-11-12). Every carrier prints ask and then; the hooks apply them after the keyword classifier. {pair} is the start of the class named in as, {floor} the start of floor_class, {where} the carrier's words for the start model.",
+    "small_bug": {
+      "from": "debug",
+      "as": "edit",
+      "ask": "Is it a small bug with all its code in the prompt?",
+      "then": "That is a scoped fix, not debugging: {pair}, and run the code to check.",
+      "why": "a small bug with all its code in the prompt is a scoped fix; run the code to check",
+      "max_code_lines": 40,
+      "max_code_lines_why": "judgment: what the hooks still call small"
+    },
+    "named_effort": {
+      "floor_class": "risky",
+      "ask": "Does the prompt name an effort?",
+      "then": "It wins: use the named effort on {where}. Risky work still never goes below {floor}.",
+      "why": "the prompt names effort {effort}"
+    }
+  },
+  "class_order": ["quick", "search", "write", "edit", "debug", "risky", "review", "research", "plan"],
+  "unsure": {
+    "pair": ["sonnet", "high"],
+    "why": "when unsure, the middle of the range (judgment; EVIDENCE.md finding 5: Sonnet's knee is high)"
+  },
+  "helpers": {
+    "scout": {
+      "pair": ["haiku", "low"],
+      "does": "find, read and list; reports paths, quotes and line numbers"
+    },
+    "runner": {
+      "pair": ["haiku", "low"],
+      "does": "runs tests and commands, reports the exact command and its output"
+    },
+    "builder": {
+      "pair": ["sonnet", "high"],
+      "does": "one scoped edit from a brief, then runs the brief's check"
+    },
+    "reviewer": {
+      "pair": ["opus", "high"],
+      "does": "risky diffs, and any step that failed twice"
+    }
+  },
+  "summary_helper": {
+    "pair": ["haiku", "high"],
+    "why": "EVIDENCE.md finding 6; a scout call with effort set to high"
+  },
+  "orchestrator": {
+    "models": ["opus", "fable"],
+    "min_effort": "high",
+    "keyword_on": "orchestrate",
+    "keyword_off": "solo"
+  }
+}

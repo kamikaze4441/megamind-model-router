@@ -1,0 +1,7 @@
+Imagine your bank hands out free padlocks, already open, to anyone who asks. Each one can be snapped shut by anybody, but only the bank owns the key that opens them. That is the whole idea behind keeping your messages secret online.
+
+When you visit your bank's website, your computer picks up one of these open padlocks. This is the public key, and it can be given to anyone, because an open padlock on its own is harmless. Your computer puts your message in a box, snaps the padlock shut and sends the box across the internet. Anyone who intercepts it finds only a locked box. They cannot open it, even though they could have collected the same open padlock themselves.
+
+Only the bank holds the key to that padlock. This is the private key, and the bank never shares it with anyone, not even with you. When the box arrives, the bank turns the key, opens the padlock and reads your message.
+
+So you and the bank never needed to meet or swap a secret beforehand. All it took was a padlock that anyone can close and only one party can open. That is why you can safely send your password to a website run by people you have never met.

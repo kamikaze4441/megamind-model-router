@@ -1,0 +1,13 @@
+Title: Pi-hole DNS dies after ~2 days: max concurrent queries reached
+
+Setup: Raspberry Pi 4 (4 GB), Raspberry Pi OS Bookworm 64-bit, Pi-hole v5.18.3, FTL 5.25.2. The router is a FRITZ!Box 7590, and the Pi is the only DNS server it hands out by DHCP. Upstream is Cloudflare 1.1.1.1 and Quad9.
+
+Symptom: after about 36 to 50 hours, all devices lose internet access. The web admin shows a red "DNS resolution is currently unavailable". `pihole restartdns` fixes it at once, and so does a reboot.
+
+Last line of the FTL log before it dies: "Maximum number of concurrent DNS queries reached (max: 150)". `pihole -d` showed nothing obvious to me. Pi temperature is 48 °C.
+
+Already tried, same result each time: new SD card (SanDisk 32 GB), static IP 192.168.178.2, IPv6 turned off on the FRITZ!Box.
+
+A Samsung smart TV sends about 9,000 queries a day to one Samsung domain, so I suspect it, but I have not confirmed it.
+
+Question: how do I find which client is sending the flood of queries?

@@ -1,0 +1,134 @@
+benchmark,model,effort,x,y,x_label,y_label
+FrontierCode 2.0,**Fable 5.2**,Low,2.098,34.2,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.2**,Med,2.482,37.59,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.2**,High,6.721,45.29,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.2**,Xhigh,14.19,49.11,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.2**,Max,44.70,45.65,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Opus 5.5**,Low,0.746,14.72,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Opus 5.5**,Med,1.699,30.1,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Opus 5.5**,High,2.423,34.53,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Opus 5.5**,Xhigh,5.184,43.38,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Opus 5.5**,Max,12.82,45.45,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.1**,Low,3.007,20.59,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.1**,Med,3.891,21.47,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.1**,High,5.386,25.67,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.1**,Xhigh,8.68,32.44,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,**Fable 5.1**,Max,11.46,31.67,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,GPT-6 Astra,Low,2.437,31.11,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,GPT-6 Astra,Med,3.493,36.75,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,GPT-6 Astra,High,4.277,38.31,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,GPT-6 Astra,Xhigh,4.539,41.41,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,GPT-6 Astra,Max,6.676,42.77,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,Gemini 4 Carbon,Low,5.49,32.4,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,Gemini 4 Carbon,Med,5.16,41.06,"Cost per task (USD, log scale)",Score (%)
+FrontierCode 2.0,Gemini 4 Carbon,High,5.833,38.42,"Cost per task (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.2**,Low,12.66,71.4,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.2**,Med,15.71,73.6,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.2**,High,29.2,79.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.2**,Xhigh,39.84,80.6,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.2**,Max,53.11,82.1,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Opus 5.5**,Low,1.25,31.2,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Opus 5.5**,Med,11.4,62.8,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Opus 5.5**,High,17.31,67.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Opus 5.5**,Xhigh,29.25,71.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Opus 5.5**,Max,38.68,72.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.1**,Low,24.41,63.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.1**,Med,28.78,64.5,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.1**,High,37.6,66.7,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.1**,Xhigh,44.5,67.7,"Cost per attempt (USD, log scale)",Score (%)
+WANDR (relaxed score),**Fable 5.1**,Max,51.1,68.7,"Cost per attempt (USD, log scale)",Score (%)
+BenchCAD 2.1 (with tools),**Fable 5.2**,Low,1.888,26.9,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.2**,Med,2.66,32.4,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.2**,High,9.993,61.0,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.2**,Xhigh,23.23,74.1,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.2**,Max,50.77,83.5,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Opus 5.5**,Low,0.0312,6.3,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Opus 5.5**,Med,1.114,19.1,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Opus 5.5**,High,2.571,29.7,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Opus 5.5**,Xhigh,8.906,54.5,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Opus 5.5**,Max,19.86,65.3,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.1**,Low,2.953,12.1,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.1**,Med,5.703,15.7,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.1**,High,12.44,25.8,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.1**,Xhigh,27.38,40.5,"Cost per attempt (USD, log scale)",Score (0–100)
+BenchCAD 2.1 (with tools),**Fable 5.1**,Max,34.69,44.4,"Cost per attempt (USD, log scale)",Score (0–100)
+Humanity’s Last Exam (with tools),**Fable 5.2**,Low,0.1853,68.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.2**,Med,0.208,68.6,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.2**,High,0.6268,71.5,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.2**,Xhigh,1.48,73.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.2**,Max,4.51,74.2,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Opus 5.5**,Low,0.0751,57.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Opus 5.5**,Med,0.1718,63,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Opus 5.5**,High,0.2947,63.9,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Opus 5.5**,Xhigh,0.6888,66.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Opus 5.5**,Max,2.18,67.7,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.1**,Low,0.5862,60.2,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.1**,Med,0.8531,62.4,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.1**,High,1.37,63.1,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.1**,Xhigh,2.7,65.2,"Cost per attempt (USD, log scale)",Score (%)
+Humanity’s Last Exam (with tools),**Fable 5.1**,Max,3.77,65.6,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.2**,Low,0.0311,64.2,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.2**,Med,0.0349,66.4,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.2**,High,0.0675,69.8,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.2**,Xhigh,0.1507,71.4,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.2**,Max,0.7493,73.4,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Opus 5.5**,Low,0.0211,57,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Opus 5.5**,Med,0.0251,59,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Opus 5.5**,High,0.0315,59.2,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Opus 5.5**,Xhigh,0.0818,62.4,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Opus 5.5**,Max,0.4916,64.4,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.1**,Low,0.0256,36.6,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.1**,Med,0.05,42.2,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.1**,High,0.0832,46,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.1**,Xhigh,0.3818,47,"Cost per attempt (USD, log scale)",Score (%)
+Chartography (no tools),**Fable 5.1**,Max,0.8662,44.8,"Cost per attempt (USD, log scale)",Score (%)
+CVE Rediscovery,**Mythos 5.2**,Low,0.3383,72.4,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.2**,Med,0.402,73.3,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.2**,High,1.013,83.2,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.2**,Xhigh,2.399,88.1,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.2**,Max,9.129,89.6,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Opus 5.5**,Low,0.1054,59.4,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Opus 5.5**,Med,0.2817,66.1,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Opus 5.5**,High,0.434,70.0,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Opus 5.5**,Xhigh,1.051,76.4,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Opus 5.5**,Max,2.978,81.3,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.1**,Low,0.5929,65.9,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.1**,Med,0.8899,69.8,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.1**,High,1.389,73.8,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.1**,Xhigh,2.815,77.8,"Cost per attempt (USD, log scale)",Advisories found (%)
+CVE Rediscovery,**Mythos 5.1**,Max,4.138,78.3,"Cost per attempt (USD, log scale)",Advisories found (%)
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,0.384,0.020,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,0.552,0.050,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,2,0.208,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,4,0.308,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,6,0.478,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,8,0.714,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,10,0.714,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,12,0.714,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,14,0.863,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,16,0.863,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,|0.86,18,0.863,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,20,0.863,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,22,0.863,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,24,0.873,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,26,0.873,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,,28,0.873,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Fable 5.2**,|1.00,30,1.000,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,0.375,0.020,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,0.543,0.050,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,0.710,0.060,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,2,0.120,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,4,0.181,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,6,0.198,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,8,0.198,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,10,0.220,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,12,0.220,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,14,0.240,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,16,0.260,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,|0.26,18,0.260,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,20,0.260,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,22,0.271,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,24,0.271,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,26,0.271,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,,28,0.271,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"
+Fermat’s Last Theorem proof formalization,**Opus 5.5**,|0.27,30,0.271,Time elapsed (hours),"Completion (0–1, weighted share of statements proved)"

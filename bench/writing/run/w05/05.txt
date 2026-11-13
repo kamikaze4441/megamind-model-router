@@ -1,0 +1,13 @@
+Title: Pi-hole loses DNS every ~2 days until restartdns (FTL: max concurrent queries 150)
+
+Setup: Raspberry Pi 4 (4 GB), Raspberry Pi OS Bookworm 64-bit, Pi-hole v5.18.3, FTL 5.25.2. Router is a FRITZ!Box 7590, and the Pi is the only DNS server its DHCP hands out. Upstreams are Cloudflare 1.1.1.1 and Quad9.
+
+Problem: about every two days (once after 36 hours, once after roughly 50) every device loses internet and the web admin shows a red "DNS resolution is currently unavailable". Third time this month. `pihole restartdns` fixes it instantly, and so does a reboot.
+
+The last FTL log line before it dies is "Maximum number of concurrent DNS queries reached (max: 150)". pihole -d shows nothing obvious, and the Pi runs at a fine 48 °C.
+
+Already tried, with no change: a new SD card (SanDisk 32 GB), a static IP (192.168.178.2), and IPv6 switched off in the FRITZ!Box.
+
+One suspect: a smart TV sends about 9,000 queries a day to a Samsung domain.
+
+Question: how can I find out which client fills the 150-query limit before DNS dies?

@@ -1,0 +1,131 @@
+benchmark,model,effort,x,y,x_label,y_label
+Terminal-Bench 4.0,**Opus 5.5**,Low,1.29,38.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Med,2.94,57.6,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,High,3.88,64.2,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Xhigh,7.35,66.4,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Max,11.24,64.8,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Fable 5.1**,Low,5.7,40.2,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Fable 5.1**,Med,7.8,43.4,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Fable 5.1**,High,10.5,49.4,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Fable 5.1**,Xhigh,15.8,51.3,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Fable 5.1**,Max,19.5,55.8,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5**,Low,4.25,28.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5**,Med,7,41.2,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5**,High,10.64,47,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5**,Xhigh,13.48,50.6,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5**,Max,15.83,52.3,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Low,1.46,7.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Med,2.69,20.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,High,4.12,26.1,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Xhigh,5.39,28.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Max,7.89,37.3,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-6 Astra**,Low,4.95,49.7,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-6 Astra**,Med,6.15,53.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-6 Astra**,High,7.21,57.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-6 Astra**,Xhigh,7.48,57.6,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-6 Astra**,Max,10.35,56.7,"Cost per attempt (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Low,0.4036,47.3,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Med,0.8016,54.64,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,High,1.0896,53.99,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Xhigh,2.2545,51.42,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Max,6.191,54.43,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Fable 5.1**,Low,2.4665,52.8,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Fable 5.1**,Med,3.2845,50.91,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Fable 5.1**,High,5.2741,50.34,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Fable 5.1**,Xhigh,9.2739,48.73,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Fable 5.1**,Max,12.8218,50.28,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5**,Low,2.6415,41.95,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5**,Med,4.6066,53.38,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5**,High,7.615,47.99,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5**,Xhigh,8.9885,43.65,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5**,Max,12.2814,48.04,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-5.6 Sol**,Low,1.7476,35.44,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-5.6 Sol**,Med,2.4986,39.93,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-5.6 Sol**,High,3.2488,45.06,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-5.6 Sol**,Xhigh,3.8806,46.84,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-5.6 Sol**,Max,4.8477,47.49,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Astra**,Low,1.5927,45.27,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Astra**,Med,2.2845,48.83,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Astra**,High,2.847,50.94,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Astra**,Xhigh,3.0961,50.62,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Astra**,Max,4.3632,53.26,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Low,1.18,43.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Med,2.9,52.5,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,High,3.97,56,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Xhigh,6.99,56,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Max,13.43,57.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Fable 5.1**,Low,5.44,45.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Fable 5.1**,Med,7.05,46.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Fable 5.1**,High,9.08,49.2,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Fable 5.1**,Xhigh,13.01,51.6,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Fable 5.1**,Max,17.28,51.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5**,Low,4.87,40.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5**,Med,6.94,43.3,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5**,High,9,44.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5**,Xhigh,11.43,46.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5**,Max,11.95,46.6,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Low,0.87,24.6,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Med,1.77,31.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,High,2.85,35.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Xhigh,4.4,37.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Max,8.23,41.7,"Cost per task (USD, log scale)",Score (%)
+GDPval-AA v2.1,**Opus 5.5**,Low,0.2137,1224,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5.5**,Med,0.8563,1576,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5.5**,High,1.5424,1692,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5.5**,Xhigh,4.2104,1820,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5.5**,Max,8.9154,1846,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Fable 5.1**,Low,1.4147,1450,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Fable 5.1**,Med,2.1682,1536,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Fable 5.1**,High,3.4287,1617,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Fable 5.1**,Xhigh,7.0862,1721,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Fable 5.1**,Max,9.5863,1735,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5**,Low,0.5817,1294,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5**,Med,1.3639,1476,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5**,High,3.0266,1581,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5**,Xhigh,4.962,1676,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**Opus 5**,Max,6.7647,1708,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-5.6 Sol**,Low,0.2677,1289,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-5.6 Sol**,Med,0.5954,1403,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-5.6 Sol**,High,1.106,1480,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-5.6 Sol**,Xhigh,1.7042,1548,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-5.6 Sol**,Max,2.8099,1588,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-6 Astra**,Low,0.8545,1366,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-6 Astra**,Med,1.8223,1468,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-6 Astra**,High,2.4321,1485,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-6 Astra**,Xhigh,3.038,1516,"Estimated cost per task (USD, log scale)",Elo
+GDPval-AA v2.1,**GPT-6 Astra**,Max,4.5293,1542,"Estimated cost per task (USD, log scale)",Elo
+AutomationBench,**Opus 5.5**,Low,0.5,23.3,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5.5**,Med,0.64,28.6,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5.5**,High,0.7,32,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5.5**,Xhigh,0.86,34.4,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5.5**,Max,1.37,40,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5**,Low,0.75,20.4,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5**,Med,0.89,23.9,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5**,High,1.03,20.6,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5**,Xhigh,1.15,25.3,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**Opus 5**,Max,1.27,26.9,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-5.6 Sol**,Low,0.42,11.7,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-5.6 Sol**,Med,0.57,19.6,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-5.6 Sol**,High,0.64,24.8,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-5.6 Sol**,Xhigh,0.74,26.3,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-5.6 Sol**,Max,0.91,28.8,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-6 Astra**,Low,1.08,30.3,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-6 Astra**,Med,1.28,34.1,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-6 Astra**,High,1.45,37.1,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-6 Astra**,Xhigh,1.53,39,"Cost per task (USD, log scale)",Pass rate (%)
+AutomationBench,**GPT-6 Astra**,Max,1.77,41.4,"Cost per task (USD, log scale)",Pass rate (%)
+WANDR,**Opus 5.5**,Low,1.2,31.2,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5.5**,Med,11.2,62.8,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5.5**,High,16.88,67.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5.5**,Xhigh,29.06,71.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5.5**,Max,37.92,72.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Fable 5.1**,Low,23.25,63.3,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Fable 5.1**,Med,27.41,64.5,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Fable 5.1**,High,33.62,66.7,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Fable 5.1**,Xhigh,42.81,67.7,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Fable 5.1**,Max,49.02,68.7,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5**,Low,10.65,50.5,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5**,Med,23.97,58.1,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5**,High,43.49,64.6,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5**,Xhigh,53.84,67,"Cost per attempt (USD, log scale)",Score (%)
+WANDR,**Opus 5**,Max,61.62,67.2,"Cost per attempt (USD, log scale)",Score (%)

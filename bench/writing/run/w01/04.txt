@@ -1,0 +1,9 @@
+Imagine you want to receive secret letters from someone you have never met. Here is how a special kind of padlock makes that possible.
+
+First, the person makes a pair of keys: a public key and a private key. The public key is like a padlock they can hand out to anyone. They can give out as many copies as they like, on a website, in an email, or even on a noticeboard in a shop. Anyone can use it to lock a box.
+
+The private key is the only key that opens those padlocks. It never leaves home. The owner keeps it safe and never shares it with anyone.
+
+So here is what you do. You put your secret message in a small box, snap on one of the public padlocks, and post it. On its journey, anybody can see the box and even carry it, but nobody can open it. When it arrives, the owner uses the private key, which fits only the padlocks they made, and the box opens. Only they can read your message.
+
+This is the same idea behind the padlock you see on your bank's website. Your details are locked before they leave your computer, and only the bank holds the key that opens them.

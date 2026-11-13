@@ -1,0 +1,81 @@
+benchmark,model,effort,x,y,x_label,y_label
+Terminal-Bench 4.0,**Sonnet 5.5**,Low,0.7572,20,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5.5**,Med,0.8347,28.8,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5.5**,High,1.9401,43,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5.5**,Xhigh,5.298,61.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5.5**,Max,12.5406,70.6,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Low,1.2911,38.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Med,2.9365,57.6,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,High,3.8843,64.2,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Xhigh,7.3534,66.4,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Opus 5.5**,Max,11.2418,64.8,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5**,Low,3.7767,3.2,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5**,Med,4.829,4.4,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5**,High,8.1997,4.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5**,Xhigh,9.9546,7,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**Sonnet 5**,Max,11.6228,10.3,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Low,1.4609,7.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Med,2.6906,20.9,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,High,4.1225,26.1,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Xhigh,5.3852,28.5,"Cost per attempt (USD, log scale)",Score (%)
+Terminal-Bench 4.0,**GPT-5.6 Sol**,Max,7.8945,37.3,"Cost per attempt (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5.5**,Low,0.194,29.3,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5.5**,Med,0.2364,36.5,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5.5**,High,0.4175,49.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5.5**,Xhigh,1.5881,52.1,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5.5**,Max,20.7818,46.2,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Low,0.4039,47.3,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Med,0.8021,54.6,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,High,1.0901,54,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Xhigh,2.25,51.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Opus 5.5**,Max,6.1918,54.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5**,Low,2.39,28.7,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5**,Med,3.81,35.2,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5**,High,6.1,39.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5**,Xhigh,10.07,42.7,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**Sonnet 5**,Max,17.12,42.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Sol**,Low,0.4324,37.3,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Sol**,Med,0.7659,45.9,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Sol**,High,1.0393,47.7,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Sol**,Xhigh,1.325,48.4,"Cost per task (USD, log scale)",Score (%)
+"FrontierCode v1.1, main set",**GPT-6 Sol**,Max,2.0651,49.3,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5.5**,Low,0.5,35.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5.5**,Med,0.7,39.2,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5.5**,High,1.67,47.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5.5**,Xhigh,3.88,53.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5.5**,Max,9.67,55.5,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Low,1.17,43.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Med,2.91,52.5,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,High,3.97,56,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Xhigh,6.98,56,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Opus 5.5**,Max,13.43,57.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5**,Low,1.39,24.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5**,Med,2.31,28,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5**,High,3.48,30.8,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5**,Xhigh,4.55,32,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**Sonnet 5**,Max,7.17,34.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Low,0.87,24.6,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Med,1.77,31.1,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,High,2.85,35.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Xhigh,4.4,37.7,"Cost per task (USD, log scale)",Score (%)
+CursorBench 4.0,**GPT-5.6 Sol**,Max,8.23,41.7,"Cost per task (USD, log scale)",Score (%)
+AA-Briefcase v1.1,**Sonnet 5.5**,Low,0.8685,1264,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5.5**,Med,1.6431,1461,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5.5**,High,3.9546,1634,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5.5**,Xhigh,9.6309,1746,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5.5**,Max,29.194,1811,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Opus 5.5**,Low,1.1528,1285,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Opus 5.5**,Med,4.3982,1642,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Opus 5.5**,High,6.2708,1705,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Opus 5.5**,Xhigh,12.2662,1780,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Opus 5.5**,Max,21.046,1822,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5**,Low,0.8175,923,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5**,Med,1.7322,1056,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5**,High,3.7647,1177,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5**,Xhigh,7.5572,1274,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**Sonnet 5**,Max,14.4292,1359,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**GPT-6 Sol**,Low,0.12,905,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**GPT-6 Sol**,Med,0.34,1142,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**GPT-6 Sol**,High,0.63,1289,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**GPT-6 Sol**,Xhigh,1.19,1364,"Cost per task (USD, log scale)",Elo
+AA-Briefcase v1.1,**GPT-6 Sol**,Max,2.67,1483,"Cost per task (USD, log scale)",Elo

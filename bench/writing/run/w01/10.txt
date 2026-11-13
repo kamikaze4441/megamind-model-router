@@ -1,0 +1,9 @@
+A phone battery stores electricity in chemicals. Each charge and discharge slowly changes those chemicals, and some of the storing ability is lost for good. After a few years, the battery can hold noticeably less charge than it did when new.
+
+The main cause is heat. Heat speeds up the wear, because the chemical changes happen faster when the battery is warm. A phone left in a hot car, charged under a pillow or running a demanding game gets hot, and each hot day takes a little more life from the battery. Fast charging also creates heat, so a warm phone wears out faster.
+
+So a phone that dies by 4 p.m. is usually a worn battery that is being pushed hard by heat. Three things can help:
+
+1. Keep the phone cool. Take a thick case off while charging, and do not leave it in sunlight or a hot car.
+2. Turn on optimised charging if your phone offers it, so the battery does not sit at full charge for hours.
+3. Lower the screen brightness and close apps you are not using, so the phone runs cooler and uses less power.

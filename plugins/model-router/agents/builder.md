@@ -3,7 +3,7 @@ name: builder
 description: Makes one scoped change from a brief - a small feature, a fix, a refactor, a script or config edit in a few files - then runs the brief's check. Use after the target is located.
 tools: Read, Edit, Write, Bash, Grep, Glob
 model: sonnet
-effort: medium
+effort: high
 color: green
 ---
 
